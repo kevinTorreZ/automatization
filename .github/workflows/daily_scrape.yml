@@ -2,10 +2,9 @@ name: Daily Scrape
 
 on:
   schedule:
-    # Run every 6 hours (approx 4 times a day)
-    # You can adjust this cron expression as needed.
-    # UTC time.
-    - cron: "*/2 * * * *"
+    # Run every 5 minutes for testing (GitHub Actions minimum)
+    # Change to "0 8,20 * * *" for production (8 AM and 8 PM UTC)
+    - cron: "*/5 * * * *"
   workflow_dispatch: # Allows manual trigger
 
 permissions:
