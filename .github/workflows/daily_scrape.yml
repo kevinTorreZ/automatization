@@ -32,8 +32,8 @@ jobs:
 
       - name: Run Scraper
         env:
-          BUBLOX_EMAIL: ${{ secrets.BUBLOX_EMAIL }}
-          BUBLOX_PASSWORD: ${{ secrets.BUBLOX_PASSWORD }}
+          BUBLOX_EMAIL: kevintorresloyola@gmail.com
+          BUBLOX_PASSWORD: Kkdvk123
         run: |
           python main.py
 

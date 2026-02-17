@@ -35,7 +35,15 @@ class BubloxUploader:
                 print("  [Bublox] Login form detected.")
                 
                 self.page.fill("input[type='email']", email)
+                # Force update for React/Vue frameworks
+                self.page.dispatch_event("input[type='email']", "input")
+                self.page.dispatch_event("input[type='email']", "change")
+                
                 self.page.fill("input[type='password']", password)
+                self.page.dispatch_event("input[type='password']", "input")
+                self.page.dispatch_event("input[type='password']", "change")
+                
+                time.sleep(1) # Short wait for state update
                 
                 # Click login button
                 # Click login button
