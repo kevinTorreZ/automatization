@@ -75,7 +75,9 @@ def save_script(title, code):
             print(f"      [SKIP]: No matching category found for '{title}'")
 
 def scrape_tertiary(url, title):
-    if not url or url.startswith("https://scriptpastebin.com"): return
+    # Only reject if it's the main listing site (without 's')
+    # The actual script pages are on scriptpastebins.com (with 's')
+    if not url or (url.startswith("https://scriptpastebin.com") and "scriptpastebins.com" not in url): return
     # print(f"    -> Visiting Tertiary: {url}")
     soup = get_soup(url)
     if not soup: return
