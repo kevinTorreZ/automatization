@@ -38,19 +38,26 @@ class BubloxUploader:
                 self.page.fill("input[type='password']", password)
                 
                 # Click login button
+                # Click login button
                 self.page.click("button[type='submit']")
                 
                 # Wait for navigation or UI update
                 # After login, the form should disappear and "Crear nuevo Contenido" should appear
                 try:
-                    self.page.wait_for_selector("text=Crear nuevo Contenido", timeout=10000)
+                    # Wait for either "Crear nuevo Contenido" OR the select element which confirms we are in.
+                    self.page.wait_for_selector("text=Crear nuevo Contenido", state="visible", timeout=20000)
                     print("  [Bublox] Login successful (Dashboard detected).")
                 except:
-                    print("  [Bublox] Warning: Dashboard not detected after login.")
-                    self.page.screenshot(path="debug_after_login.png")
+                    # Fallback check: sometimes text might be different, check for the main select
+                    try:
+                         self.page.wait_for_selector("select.inicio-select", state="attached", timeout=5000)
+                         print("  [Bublox] Login successful (Select detected).")
+                    except:
+                        print("  [Bublox] Warning: Dashboard not detected after login.")
+                        self.page.screenshot(path="debug_after_login.png")
             else:
                 # Maybe already logged in?
-                if self.page.is_visible("text=Crear nuevo Contenido"):
+                if self.page.is_visible("text=Crear nuevo Contenido") or self.page.is_visible("select.inicio-select"):
                     print("  [Bublox] Already logged in.")
                 else:
                     print("  [Bublox] Login form NOT found and Dashboard NOT found.")
