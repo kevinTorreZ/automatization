@@ -2,10 +2,11 @@ name: Daily Scrape
 
 on:
   schedule:
-    # Run every 5 minutes for testing (GitHub Actions minimum)
-    # Change to "0 8,20 * * *" for production (8 AM and 8 PM UTC)
+    # Backup: GitHub Actions cron (unreliable)
     - cron: "*/30 * * * *"
   workflow_dispatch: # Allows manual trigger
+  repository_dispatch: # Allows external trigger (Google Cloud Scheduler)
+    types: [run-scraper]
 
 permissions:
   contents: write
