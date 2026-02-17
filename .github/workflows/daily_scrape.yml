@@ -47,6 +47,9 @@ jobs:
           if [[ -n $(git status --porcelain last_run.json) ]]; then
             git add last_run.json
             git commit -m "Update last_run.json state [skip ci]"
+            
+            # Pull with rebase to handle concurrent runs
+            git pull --rebase origin main
             git push
           else
             echo "No changes to last_run.json"
