@@ -51,3 +51,10 @@ jobs:
           else
             echo "No changes to last_run.json"
           fi
+
+      - name: Upload Debug Screenshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: debug-screenshots
+          path: proyecto python/*.png
