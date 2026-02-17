@@ -1,9 +1,6 @@
 name: Daily Scrape
 
 on:
-  schedule:
-    # Backup: GitHub Actions cron (unreliable)
-    - cron: "*/30 * * * *"
   workflow_dispatch: # Allows manual trigger
   repository_dispatch: # Allows external trigger (Google Cloud Scheduler)
     types: [run-scraper]
