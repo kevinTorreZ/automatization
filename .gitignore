@@ -1,0 +1,7 @@
+venv/
+__pycache__/
+*.png
+*.log
+scraped_scripts/
+# Keep last_run.json tracker
+!last_run.json
