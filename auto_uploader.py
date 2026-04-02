@@ -115,9 +115,7 @@ def detect_game(title: str):
     Retorna (nombre_formateado, placeid) o (None, None).
     """
     openai_key = os.getenv(
-        "OPENAI_KEY",
-        "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",
-    )
+        "OPENAI_KEY","")
     title_lower = title.lower()
 
     # Paso 1: match directo en KNOWN_GAMES
@@ -167,7 +165,7 @@ def create_category(name: str, placeid: int) -> bool:
 
 def upload_script(title: str, categories: list, code: str) -> bool:
     """Sube un script via API."""
-    openai_key = os.getenv("OPENAI_KEY", "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")
+    openai_key = os.getenv("OPENAI_KEY", "")
     payload = {
         "baseTitle": title,
         "categories": categories,
