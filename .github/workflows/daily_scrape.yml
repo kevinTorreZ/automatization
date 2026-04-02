@@ -25,12 +25,10 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-          python -m playwright install --with-deps chromium
 
       - name: Run Scraper
         env:
-          BUBLOX_EMAIL: kevintorresloyola@gmail.com
-          BUBLOX_PASSWORD: Kkdvk123
+          OPENAI_KEY: ${{ secrets.OPENAI_KEY }}
         run: |
           python main.py
 
