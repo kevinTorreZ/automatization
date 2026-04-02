@@ -165,15 +165,9 @@ def create_category(name: str, placeid: int) -> bool:
 
 def upload_script(title: str, categories: list, code: str) -> bool:
     """Sube un script via API."""
-    openai_key = os.getenv("OPENAI_KEY", "")
-    if openai_key:
-        print(f"  [DEBUG] OPENAI_KEY recibida: {openai_key[:8]}...{openai_key[-4:]} (len={len(openai_key)})")
-    else:
-        print("  [DEBUG] OPENAI_KEY esta VACIA - el secret no se esta leyendo")
     payload = {
         "baseTitle": title,
         "categories": categories,
-        "openaiKey": openai_key,
         "code": code,
     }
     try:
