@@ -169,6 +169,7 @@ def upload_script(title: str, categories: list, code: str) -> bool:
         "baseTitle": title,
         "categories": categories,
         "code": code,
+        "openaiKey": os.environ.get("OPENAI_KEY", ""),
     }
     try:
         resp = requests.post(SCRIPT_API, json=payload, timeout=60)

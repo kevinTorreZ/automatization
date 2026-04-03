@@ -1,14 +1,21 @@
-import requests
-from bs4 import BeautifulSoup
-import time
+import json
 import os
 import re
-import json
+import time
 from datetime import datetime
-from auto_uploader import detect_game, create_category, upload_script, format_category_name
+
+import requests
+from bs4 import BeautifulSoup
+
+from auto_uploader import (
+    create_category,
+    detect_game,
+    format_category_name,
+    upload_script,
+)
 
 HEADERS = {
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
 }
 
 OUTPUT_DIR = "scraped_scripts"
@@ -25,7 +32,7 @@ KNOWN_CATEGORIES = {}
 def load_state():
     if os.path.exists(STATE_FILE):
         try:
-            with open(STATE_FILE, 'r') as f:
+            with open(STATE_FILE, "r") as f:
                 return json.load(f)
         except:
             return {}
@@ -34,7 +41,7 @@ def load_state():
 
 def save_state(data):
     try:
-        with open(STATE_FILE, 'w') as f:
+        with open(STATE_FILE, "w") as f:
             json.dump(data, f, indent=2)
     except Exception as e:
         print(f"Warning: Could not save state: {e}")
@@ -43,7 +50,7 @@ def save_state(data):
 def get_soup(url):
     try:
         response = requests.get(url, headers=HEADERS, timeout=30)
-        return BeautifulSoup(response.text, 'html.parser')
+        return BeautifulSoup(response.text, "html.parser")
     except Exception as e:
         print(f"    [ERROR] fetching {url}: {e}")
         return None
@@ -67,7 +74,7 @@ def ensure_category_exists(game_name: str, placeid: int) -> str:
 
 
 def save_script(title, code):
-    safe_title = re.sub(r'[<>:"/\\|?*]', '', title).strip()
+    safe_title = re.sub(r'[<>:"/\\|?*]', "", title).strip()
     if len(safe_title) > 100:
         safe_title = safe_title[:100]
     filepath = os.path.join(OUTPUT_DIR, f"{safe_title}.lua")
@@ -96,14 +103,17 @@ def save_script(title, code):
 
 
 def scrape_tertiary(url, title):
-    if not url or (url.startswith("https://scriptpastebin.com") and "scriptpastebins.com" not in url):
+    if not url or (
+        url.startswith("https://scriptpastebin.com")
+        and "scriptpastebins.com" not in url
+    ):
         return
     soup = get_soup(url)
     if not soup:
         return
 
     code = None
-    textareas = soup.find_all('textarea')
+    textareas = soup.find_all("textarea")
     if textareas:
         for ta in textareas:
             c = ta.get_text(strip=True)
@@ -111,7 +121,7 @@ def scrape_tertiary(url, title):
                 code = c
                 break
     if not code:
-        pres = soup.find_all('pre')
+        pres = soup.find_all("pre")
         if pres:
             code = pres[0].get_text(strip=True)
 
@@ -128,14 +138,18 @@ def scrape_detail(url):
 
     today_str = datetime.now().strftime("%Y-%m-%d")
     post_date = None
-    time_tag = soup.find('time', class_='entry-date') or soup.find('time', class_='published')
+    time_tag = soup.find("time", class_="entry-date") or soup.find(
+        "time", class_="published"
+    )
 
-    if time_tag and time_tag.has_attr('datetime'):
-        post_date = time_tag['datetime'][:10]
+    if time_tag and time_tag.has_attr("datetime"):
+        post_date = time_tag["datetime"][:10]
 
     if post_date:
         if post_date != today_str:
-            print(f"    [SKIP DATE]: Script date {post_date} is not today ({today_str}).")
+            print(
+                f"    [SKIP DATE]: Script date {post_date} is not today ({today_str})."
+            )
             return
         else:
             print(f"    [DATE OK]: {post_date}")
@@ -144,14 +158,19 @@ def scrape_detail(url):
 
     target_title = "Unknown Script"
 
-    button = soup.find('a', string=lambda t: t and 'Get Script' in t)
+    button = soup.find("a", string=lambda t: t and "Get Script" in t)
     if not button:
-        button = soup.find('a', class_=lambda c: c and 'button' in c and 'wp-block-button__link' in c)
+        button = soup.find(
+            "a", class_=lambda c: c and "button" in c and "wp-block-button__link" in c
+        )
 
     if button:
         container = button
         for _ in range(3):
-            if container.parent and ('buttons' in container.parent.get('class', []) or 'entry-content' in container.parent.get('class', [])):
+            if container.parent and (
+                "buttons" in container.parent.get("class", [])
+                or "entry-content" in container.parent.get("class", [])
+            ):
                 break
             container = container.parent
 
@@ -160,7 +179,16 @@ def scrape_detail(url):
         limit = 5
         while curr and limit > 0:
             curr = curr.previous_sibling
-            if curr and curr.name in ['p', 'div', 'h4', 'h3', 'h2', 'h1', 'strong', 'span']:
+            if curr and curr.name in [
+                "p",
+                "div",
+                "h4",
+                "h3",
+                "h2",
+                "h1",
+                "strong",
+                "span",
+            ]:
                 text = curr.get_text(strip=True)
                 if text and len(text) > 3 and "Step" not in text:
                     target_title = text
@@ -171,15 +199,15 @@ def scrape_detail(url):
         if found:
             print(f"    [TITLE ABOVE]: {target_title}")
         else:
-            h1 = soup.find('h1')
+            h1 = soup.find("h1")
             if h1:
                 target_title = h1.get_text(strip=True)
                 print(f"    [FALLBACK H1]: {target_title}")
 
-        target_link = button.get('href')
+        target_link = button.get("href")
         scrape_tertiary(target_link, target_title)
     else:
-        h1 = soup.find('h1')
+        h1 = soup.find("h1")
         if h1:
             target_title = h1.get_text(strip=True)
         scrape_tertiary(url, target_title)
@@ -207,26 +235,26 @@ def main():
         if not soup:
             return
 
-        article = soup.find('article')
+        article = soup.find("article")
         items = []
         if article:
-            headers = article.find_all('h3')
+            headers = article.find_all("h3")
             for h in headers:
-                a = h.find('a')
+                a = h.find("a")
                 if a:
-                    items.append({'link': a.get('href')})
+                    items.append({"link": a.get("href")})
         else:
-            headers = soup.find_all('h3')
+            headers = soup.find_all("h3")
             for h in headers:
-                a = h.find('a')
+                a = h.find("a")
                 if a:
-                    items.append({'link': a.get('href')})
+                    items.append({"link": a.get("href")})
 
         print(f"Found {len(items)} items. Processing...")
 
         for i, item in enumerate(items):
-            print(f"Processing Item {i+1}...")
-            scrape_detail(item['link'])
+            print(f"Processing Item {i + 1}...")
+            scrape_detail(item["link"])
             time.sleep(1)
 
         state["last_successful_run"] = today_str
