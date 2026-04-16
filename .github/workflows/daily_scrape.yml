@@ -29,6 +29,7 @@ jobs:
       - name: Run Scraper
         env:
           OPENAI_KEY: ${{ secrets.OPENAI_KEY }}
+          TZ: America/Santiago
         run: |
           python main.py
 
