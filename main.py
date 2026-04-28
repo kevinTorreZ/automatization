@@ -11,6 +11,7 @@ from auto_uploader import (
     create_category,
     detect_game,
     format_category_name,
+    sanitize_title,
     upload_script,
 )
 
@@ -74,7 +75,8 @@ def ensure_category_exists(game_name: str, placeid: int) -> str:
 
 
 def save_script(title, code):
-    safe_title = re.sub(r'[<>:"/\\|?*]', "", title).strip()
+    clean_title = sanitize_title(title)
+    safe_title = re.sub(r'[<>:"/\\|?*]', "", clean_title).strip()
     if len(safe_title) > 100:
         safe_title = safe_title[:100]
     filepath = os.path.join(OUTPUT_DIR, f"{safe_title}.lua")
@@ -86,7 +88,7 @@ def save_script(title, code):
     except:
         pass
 
-    # Detectar el juego desde el titulo del script
+    # Detectar el juego desde el titulo original (sin sanitizar) para no perder pistas
     game_name, placeid = detect_game(title)
 
     if not game_name:
@@ -98,7 +100,7 @@ def save_script(title, code):
     if not category:
         return
 
-    print(f"      [UPLOAD]: '{title}' -> categoria '{category}'")
+    print(f"      [UPLOAD]: '{clean_title}' -> categoria '{category}'")
     upload_script(title, [category], code)
 
 

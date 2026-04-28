@@ -1,8 +1,76 @@
-import requests
 import os
+import re
+
+import requests
 
 CATEGORY_API = "https://uploadcategory-4v2s5sfrtq-uc.a.run.app"
 SCRIPT_API = "https://uploadscript-4v2s5sfrtq-uc.a.run.app"
+
+# Términos prohibidos en título/descripción (regex, case-insensitive).
+# Motivo: contenido amigable para anunciantes / mejor CPM.
+FORBIDDEN_PATTERNS = [
+    # Más específicos primero para que no los "coma" otro patrón.
+    r"\bauto[-\s]?farm(?:ing|er|ers)?\s+autom[aá]tic[oa]s?\b",
+    r"\bfarm(?:ing|er|ers)?\s+autom[aá]tic[oa]s?\b",
+    r"\bauto[-\s]?farm(?:ing|er|ers)?\b",
+    r"\bfarm(?:ing|er|ers)?\b",
+    r"\bop\s+scripts?\b",
+    r"\bmod\s*menu\b",
+    r"\bfree\s+robux\b",
+    r"\bscripts?\b",
+    r"\bexploits?\b",
+    r"\bhacks?\b",
+    r"\bcheats?\b",
+    r"\bbypass(?:es|ed|ing)?\b",
+    r"\binject(?:or|ion|ed|ing)?\b",
+    r"\bexec(?:utor|ute|uting)?\b",
+]
+
+FORBIDDEN_WORDS = [
+    "script", "scripts", "exploit", "exploits", "hack", "hacks",
+    "cheat", "cheats", "farm", "farming", "autofarm", "auto farm",
+    "auto-farm", "bypass", "injector", "inject", "executor", "exec",
+    "mod menu", "op script", "free robux",
+]
+
+
+def sanitize_title(title: str) -> str:
+    """Remueve términos prohibidos y limpia separadores residuales."""
+    if not title:
+        return title
+    cleaned = title
+    for pat in FORBIDDEN_PATTERNS:
+        cleaned = re.sub(pat, " ", cleaned, flags=re.IGNORECASE)
+    cleaned = re.sub(r"\s+", " ", cleaned)
+    cleaned = re.sub(r"^[\s\-|:•·,.]+|[\s\-|:•·,.]+$", "", cleaned)
+    cleaned = cleaned.strip()
+    return cleaned or title
+
+
+# Prompt que se envía al backend para que genere título y descripción
+# optimizados para CPM/SEO y libres de términos demonetizables.
+TITLE_DESCRIPTION_PROMPT = (
+    "You are an SEO copywriter for a Roblox guides website monetized with ads (CPM-driven). "
+    "Given a base title and a Roblox game, produce an advertiser-friendly title and "
+    "meta description.\n\n"
+    "ADVERTISER / CPM SAFETY (hard rules):\n"
+    "- NEVER use these words or close variants: script, scripts, exploit, exploits, "
+    "hack, hacks, cheat, cheats, farm, farming, auto farm, autofarm, auto-farm, "
+    "bypass, injector, inject, executor, exec, mod menu, op script, free robux.\n"
+    "- Family-friendly, advertiser-safe language only. No profanity, slurs, NSFW, "
+    "violence, gambling, or adult terms. Frame everything as a guide, tips, "
+    "walkthrough, update notes, codes, or feature overview.\n\n"
+    "QUALITY RULES (high CTR + CPM):\n"
+    "- Title: 50-65 chars. Front-load the Roblox game name + a concrete benefit "
+    "(\"Guide\", \"Tips\", \"Walkthrough\", \"Update\", \"Codes\", \"Best Strategies\", "
+    "\"Beginner Guide\", \"Tier List\"). Title Case. No clickbait spam, no emojis, "
+    "no ALL CAPS, no excessive punctuation.\n"
+    "- Description: 140-160 chars. Natural, keyword-rich meta description. Mentions "
+    "the game, what the reader will learn, and one specific feature/benefit. Ends "
+    "with a soft CTA (\"Read the full guide\", \"Check the latest tips\").\n"
+    "- Use neutral, evergreen wording so the page stays advertiser-safe long term.\n\n"
+    "Return STRICT JSON only: {\"title\": \"...\", \"description\": \"...\"}"
+)
 
 # Cache rapido: game name (lowercase) -> place ID
 # Los juegos desconocidos se identifican via IA y se buscan en Roblox automaticamente.
@@ -164,17 +232,23 @@ def create_category(name: str, placeid: int) -> bool:
 
 
 def upload_script(title: str, categories: list, code: str) -> bool:
-    """Sube un script via API."""
+    """Sube un script via API con título sanitizado y prompt CPM-friendly."""
+    safe_title = sanitize_title(title)
+    if safe_title != title:
+        print(f"  [SANITIZE] '{title}' -> '{safe_title}'")
     payload = {
-        "baseTitle": title,
+        "baseTitle": safe_title,
+        "originalTitle": title,
         "categories": categories,
         "code": code,
+        "prompt": TITLE_DESCRIPTION_PROMPT,
+        "forbiddenWords": FORBIDDEN_WORDS,
         "openaiKey": os.environ.get("OPENAI_KEY", ""),
     }
     try:
         resp = requests.post(SCRIPT_API, json=payload, timeout=60)
         if resp.status_code in (200, 201):
-            print(f"  [API] Script '{title}' subido correctamente.")
+            print(f"  [API] Script '{safe_title}' subido correctamente.")
             return True
         else:
             print(f"  [API] Error subiendo script: {resp.status_code} - {resp.text[:200]}")
