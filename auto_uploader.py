@@ -150,26 +150,91 @@ def _ask_ai_game_name(title: str, openai_key: str) -> str | None:
     return None
 
 
+_ROBLOX_HEADERS = {
+    "Accept": "application/json",
+    "Accept-Language": "en-US,en;q=0.9",
+    "User-Agent": (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+        "(KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    ),
+    "Referer": "https://www.roblox.com/",
+    "Origin": "https://www.roblox.com",
+}
+
+
 def _search_roblox_placeid(game_name: str) -> int:
     """
-    Busca el place ID del juego en la API publica de Roblox.
+    Busca el placeId del juego en Roblox con varios endpoints en cadena.
     Retorna 0 si no encuentra nada.
     """
+    # Intento 1: omni-search (la búsqueda que usa la home de Roblox).
+    # Devuelve grupos por contentGroupType; el primero con type=Game tiene rootPlaceId.
     try:
-        resp = requests.get(
+        url = (
+            "https://apis.roblox.com/search-api/omni-search"
+            f"?searchQuery={requests.utils.quote(game_name)}"
+            "&pageType=all&sessionId=00000000-0000-0000-0000-000000000000"
+        )
+        r = requests.get(url, headers=_ROBLOX_HEADERS, timeout=10)
+        if r.status_code == 200:
+            for group in r.json().get("searchResults", []):
+                if group.get("contentGroupType") in ("Game", "game", "Games"):
+                    for entry in group.get("contents", []):
+                        place_id = entry.get("rootPlaceId")
+                        if place_id:
+                            name = entry.get("name", "?")
+                            print(
+                                f"  [Roblox] '{game_name}' -> '{name}' "
+                                f"placeid: {place_id} (omni-search)"
+                            )
+                            return int(place_id)
+                    break
+    except Exception as e:
+        print(f"  [Roblox] omni-search fallo: {e}")
+
+    # Intento 2: search/v1/search/universes -> games?universeIds=
+    try:
+        url1 = (
+            "https://apis.roblox.com/search/v1/search/universes"
+            f"?keyword={requests.utils.quote(game_name)}"
+            "&sessionId=00000000-0000-0000-0000-000000000000&limit=1"
+        )
+        r1 = requests.get(url1, headers=_ROBLOX_HEADERS, timeout=10)
+        if r1.status_code == 200:
+            universe_id = (r1.json().get("data") or [{}])[0].get("id")
+            if universe_id:
+                r2 = requests.get(
+                    f"https://games.roblox.com/v1/games?universeIds={universe_id}",
+                    headers=_ROBLOX_HEADERS,
+                    timeout=10,
+                )
+                if r2.status_code == 200:
+                    place_id = (r2.json().get("data") or [{}])[0].get("rootPlaceId")
+                    if place_id:
+                        print(f"  [Roblox] '{game_name}' -> placeid: {place_id} (universes)")
+                        return int(place_id)
+    except Exception as e:
+        print(f"  [Roblox] universes fallo: {e}")
+
+    # Intento 3: games/list legacy
+    try:
+        r = requests.get(
             "https://games.roblox.com/v1/games/list",
-            params={"model.keyword": game_name, "model.maxRows": 6, "model.startRows": 0},
+            params={"keyword": game_name, "maxRows": 1, "startRows": 0},
+            headers=_ROBLOX_HEADERS,
             timeout=10,
         )
-        if resp.status_code == 200:
-            games = resp.json().get("games", [])
+        if r.status_code == 200:
+            games = r.json().get("games") or []
             if games:
-                placeid = games[0].get("placeId", 0)
-                print(f"  [Roblox] '{game_name}' -> placeid: {placeid}")
-                return placeid
-        print(f"  [Roblox] Sin resultados para '{game_name}' (status: {resp.status_code})")
+                place_id = games[0].get("PlaceID") or games[0].get("placeId")
+                if place_id:
+                    print(f"  [Roblox] '{game_name}' -> placeid: {place_id} (legacy)")
+                    return int(place_id)
     except Exception as e:
-        print(f"  [Roblox] Error: {e}")
+        print(f"  [Roblox] legacy fallo: {e}")
+
+    print(f"  [Roblox] Sin resultados para '{game_name}' tras 3 intentos.")
     return 0
 
 
