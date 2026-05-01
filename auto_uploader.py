@@ -146,8 +146,19 @@ KNOWN_GAMES = {
 
 
 def format_category_name(name: str) -> str:
-    """Solo la primera palabra lleva mayuscula: 'Blox fruits'."""
-    words = name.strip().split()
+    """
+    Solo la primera palabra lleva mayuscula: 'Blox fruits'.
+    Strippea anotaciones tipo '[MAP CHANGES]', '[RELEASE]', '(BETA)' que
+    suelen venir en game.title de la API de rscripts/Roblox.
+    """
+    if not name:
+        return name
+    # Quitar contenido entre [...] (...) {...}
+    cleaned = re.sub(r"\s*[\(\[\{][^\)\]\}]*[\)\]\}]\s*", " ", name)
+    cleaned = re.sub(r"\s+", " ", cleaned).strip()
+    if not cleaned:
+        cleaned = name  # fallback si todo era anotación
+    words = cleaned.split()
     if not words:
         return name
     result = words[0].capitalize()
