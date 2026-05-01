@@ -2,7 +2,7 @@ import json
 import os
 import re
 import time
-from datetime import datetime
+from datetime import datetime, timezone
 
 import requests
 from bs4 import BeautifulSoup
@@ -216,26 +216,38 @@ def scrape_detail(url):
         scrape_tertiary(url, target_title)
 
 
-def run_rscripts(state, max_pages=2):
+def run_rscripts(state, max_pages=3):
     """
-    Sube los scripts más recientes de rscripts.net cumpliendo:
-    - verifiedOnly=true (autores verificados)
-    - noKeySystem=true (sin sistema de keys)
-    - orderBy=date sort=desc (lo más reciente primero)
+    Sube los scripts de rscripts.net publicados HOY cumpliendo:
+    - verifiedOnly=1 (autores verificados)
+    - noKeySystem=1 (sin sistema de keys)
+    - orderBy=date sort=desc + filtro lastUpdated >= hoy 00:00 UTC
     Dedup: persiste set de _id ya subidos en state['rscripts_uploaded_ids'].
+    Como la API ordena desc, en cuanto encontramos uno anterior a hoy
+    cortamos la paginación.
     """
+    today_str = datetime.now(timezone.utc).date().isoformat()
     seen_ids = set(state.get("rscripts_uploaded_ids", []))
     new_uploaded = 0
     skipped_seen = 0
     skipped_nogame = 0
     skipped_norawcode = 0
+    skipped_old = 0
 
+    print(f"[rscripts] filtrando solo lastUpdated == {today_str} (UTC)")
     print(f"[rscripts] {len(seen_ids)} IDs previamente subidos.")
 
+    # NO romper el loop al primer "no-hoy": la API mezcla scripts pinneados al
+    # principio, así que iteramos toda la paginación y skipeamos por fecha.
     for s in fetch_recent_verified(max_pages=max_pages):
+        last_updated = (s.get("lastUpdated") or "")[:10]
         sid = s.get("_id")
         title = (s.get("title") or "").strip()
         if not sid or not title:
+            continue
+
+        if last_updated != today_str:
+            skipped_old += 1
             continue
 
         if sid in seen_ids:
@@ -277,8 +289,9 @@ def run_rscripts(state, max_pages=2):
 
     state["rscripts_uploaded_ids"] = sorted(seen_ids)
     print(
-        f"[rscripts] subidos: {new_uploaded} | ya vistos: {skipped_seen} | "
-        f"sin juego: {skipped_nogame} | sin raw: {skipped_norawcode}"
+        f"[rscripts] subidos hoy: {new_uploaded} | ya vistos: {skipped_seen} | "
+        f"sin juego: {skipped_nogame} | sin raw: {skipped_norawcode} | "
+        f"no-hoy descartados: {skipped_old}"
     )
 
 
