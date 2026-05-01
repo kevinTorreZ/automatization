@@ -9,15 +9,9 @@ SCRIPT_API = "https://uploadscript-4v2s5sfrtq-uc.a.run.app"
 # Términos prohibidos en título/descripción (regex, case-insensitive).
 # Motivo: contenido amigable para anunciantes / mejor CPM.
 FORBIDDEN_PATTERNS = [
-    # Más específicos primero para que no los "coma" otro patrón.
+    # Combos largos primero (más específico → más general).
     r"\bauto[-\s]?farm(?:ing|er|ers)?\s+autom[aá]tic[oa]s?\b",
     r"\bfarm(?:ing|er|ers)?\s+autom[aá]tic[oa]s?\b",
-    r"\bauto[-\s]?farm(?:ing|er|ers)?\b",
-    r"\bfarm(?:ing|er|ers)?\b",
-    r"\bop\s+scripts?\b",
-    r"\bmod\s*menu\b",
-    r"\bfree\s+robux\b",
-    r"\brobux\s+gratis\b",
     r"\banti[-\s]?cheat\s+bypass\b",
     r"\ba\.?c\.?\s+bypass\b",
     r"\bsilent\s+aim\b",
@@ -29,6 +23,29 @@ FORBIDDEN_PATTERNS = [
     r"\btrigger[-\s]?bot(?:s)?\b",
     r"\bno[-\s]?clip\b",
     r"\bgod\s*mode\b",
+    r"\bunlock\s+all\b",
+    r"\bremote\s+spy\b",
+    r"\bop\s+scripts?\b",
+    r"\bmod\s*menu\b",
+    r"\bfree\s+robux\b",
+    r"\brobux\s+gratis\b",
+    # "no key" / "keyless" / "[NO KEY]"
+    r"\bno[-\s]?keys?\b",
+    r"\bkey[-\s]?less\b",
+    r"\bkey\s+system\b",
+    # Familia "Auto X": auto raid/loot/buy/build/quest/skill/parry/...
+    r"\bauto[-\s]?farm(?:ing|er|ers)?\b",
+    r"\bfarm(?:ing|er|ers)?\b",
+    r"\bauto[-\s]+[a-záéíóúñ]+\b",
+    # "AutoRob", "AutoFarm", "AutoLoot" sin separador (lista cerrada para
+    # no atrapar "automatic", "autonomous", "automation").
+    r"\bauto(?:rob|raid|loot|buy|build|quest|skill|parry|dodge|rebirth|reborn|skip|kill|attack|level|grind|sell|equip|claim|collect|spin|dig|fish|fly|tp|tele|teleport|stats|win|reroll|prestige|click|hit|hatch|merge|fuse|pull|trade|spawn|food|sprint|swim|jump|combo|shoot|aim|use|complete|train|race|play|join|leave|bring|pop|spam|hold|press)\b",
+    # Stat boosters / chest spawners
+    r"\binf(?:inite|inity)?\s+[a-záéíóúñ]+\b",
+    r"\bspoof(?:er|ers|ing)?\b",
+    r"\bspawner(?:s)?\b",
+    r"\bdisabler(?:s)?\b",
+    # Términos genéricos al final.
     r"\besp\b",
     r"\bdupe(?:s|d|r|rs|ing)?\b",
     r"\bscripts?\b",
@@ -43,12 +60,21 @@ FORBIDDEN_PATTERNS = [
 FORBIDDEN_WORDS = [
     "script", "scripts", "exploit", "exploits", "hack", "hacks",
     "cheat", "cheats", "farm", "farming", "autofarm", "auto farm",
-    "auto-farm", "bypass", "injector", "inject", "executor", "exec",
+    "auto-farm", "auto raid", "auto loot", "auto buy", "auto build",
+    "auto quest", "auto skill", "auto parry", "auto dodge",
+    "auto rebirth", "auto reborn", "auto skip", "auto kill",
+    "auto attack", "auto level", "auto grind", "auto sell",
+    "auto equip", "auto claim", "auto collect", "auto spin",
+    "auto dig", "auto fish", "auto fly", "auto teleport", "auto tp",
+    "auto stats", "auto rob", "auto win",
+    "no key", "no keys", "nokey", "keyless", "key system",
+    "bypass", "injector", "inject", "executor", "exec",
     "mod menu", "op script", "free robux", "robux gratis",
     "aimbot", "silent aim", "triggerbot", "wallhack", "wall hack",
     "ragebot", "legitbot", "skinchanger", "skin changer",
     "ac bypass", "anti-cheat bypass", "esp", "noclip", "no clip",
-    "god mode", "dupe",
+    "god mode", "dupe", "spoofer", "spawner", "disabler",
+    "unlock all", "remote spy", "infinite",
 ]
 
 
@@ -59,8 +85,16 @@ def sanitize_title(title: str) -> str:
     cleaned = title
     for pat in FORBIDDEN_PATTERNS:
         cleaned = re.sub(pat, " ", cleaned, flags=re.IGNORECASE)
+    # Brackets/paréntesis con solo whitespace dentro: "[ ]", "(  )"
+    cleaned = re.sub(r"[\(\[\{]\s*[\)\]\}]", " ", cleaned)
+    # "word , word" → "word, word" (whitespace antes del separador)
+    cleaned = re.sub(r"\s+([,;|])", r"\1", cleaned)
+    # Colapsar separadores repetidos (",,", " - - ", "| |", etc.)
+    cleaned = re.sub(r"([,;|/\\\-]\s*){2,}", lambda m: m.group(0)[0] + " ", cleaned)
+    # Whitespace múltiple → uno
     cleaned = re.sub(r"\s+", " ", cleaned)
-    cleaned = re.sub(r"^[\s\-|:•·,.]+|[\s\-|:•·,.]+$", "", cleaned)
+    # Quitar separadores sueltos al inicio/fin
+    cleaned = re.sub(r"^[\s\-|:•·,.;/\\\(\[\{]+|[\s\-|:•·,.;/\\\)\]\}]+$", "", cleaned)
     cleaned = cleaned.strip()
     return cleaned or title
 
