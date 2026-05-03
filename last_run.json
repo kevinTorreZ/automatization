@@ -1,5 +1,5 @@
 {
-  "last_successful_run": "2026-05-02",
+  "last_successful_run": "2026-05-03",
   "known_categories": {
     "Blox fruits": 2753915549,
     "Sailor piece": 77747658251236,
@@ -8,13 +8,19 @@
     "[release] dueling grounds": 94217045453265,
     "Operation one [map changes]": 72920620366355,
     "Rivals [\u2744\ufe0ffreeze ray\u2744\ufe0f]": 17625359962,
-    "Slime rng": 92416421522960
+    "Slime rng": 92416421522960,
+    "Demonfall": 4855457388,
+    "Climb and plunge": 130274245431977,
+    "Blade ball": 13772394625
   },
   "rscripts_uploaded_ids": [
     "69eda2f464a92b55be816967",
     "69f416745010109d139e8c12",
     "69f4c169daed3fbbdbb581a3",
     "69f4c2b89f2fdea6a92e13cd",
-    "69f4e5b15010109d13bdd32e"
+    "69f4e5b15010109d13bdd32e",
+    "69f691139f2fdea6a9766755",
+    "69f6c238daed3fbbdb066a79",
+    "69f6dd1cdaed3fbbdb0ac983"
   ]
 }
