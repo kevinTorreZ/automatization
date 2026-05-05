@@ -1,5 +1,5 @@
 {
-  "last_successful_run": "2026-05-04",
+  "last_successful_run": "2026-05-05",
   "known_categories": {
     "Blox fruits": 2753915549,
     "Sailor piece": 77747658251236,
@@ -11,7 +11,10 @@
     "Slime rng": 92416421522960,
     "Demonfall": 4855457388,
     "Climb and plunge": 130274245431977,
-    "Blade ball": 13772394625
+    "Blade ball": 13772394625,
+    "Break in": 3851622790,
+    "Ding dong ditch a brainrot": 74832155507837,
+    "Fisch": 16732694052
   },
   "rscripts_uploaded_ids": [
     "69eda2f464a92b55be816967",
@@ -21,6 +24,10 @@
     "69f4e5b15010109d13bdd32e",
     "69f691139f2fdea6a9766755",
     "69f6c238daed3fbbdb066a79",
-    "69f6dd1cdaed3fbbdb0ac983"
+    "69f6dd1cdaed3fbbdb0ac983",
+    "69f94589daed3fbbdb69b289",
+    "69f96919daed3fbbdb6e3a2a",
+    "69f96d315b1fca42e840c3f6",
+    "69f9ab394d3eb9cd783dedb1"
   ]
 }
