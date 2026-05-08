@@ -1,5 +1,5 @@
 {
-  "last_successful_run": "2026-05-07",
+  "last_successful_run": "2026-05-08",
   "known_categories": {
     "Blox fruits": 2753915549,
     "Sailor piece": 77747658251236,
@@ -15,7 +15,8 @@
     "Break in": 3851622790,
     "Ding dong ditch a brainrot": 74832155507837,
     "Fisch": 16732694052,
-    "Multicrew tank combat": 95721658376580
+    "Multicrew tank combat": 95721658376580,
+    "Murder mystery 2": 142823291
   },
   "rscripts_uploaded_ids": [
     "69eda2f464a92b55be816967",
@@ -31,6 +32,8 @@
     "69f96d315b1fca42e840c3f6",
     "69f9ab394d3eb9cd783dedb1",
     "69facde7cd95ac4f7052beb7",
-    "69fb03cb7fe6ad23f316abab"
+    "69fb03cb7fe6ad23f316abab",
+    "69fd60ebcd95ac4f70a7427f",
+    "69fd77bccd95ac4f70a9da1c"
   ]
 }
