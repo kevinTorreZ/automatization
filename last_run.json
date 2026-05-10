@@ -1,5 +1,5 @@
 {
-  "last_successful_run": "2026-05-09",
+  "last_successful_run": "2026-05-10",
   "known_categories": {
     "Blox fruits": 2753915549,
     "Sailor piece": 77747658251236,
@@ -17,7 +17,8 @@
     "Fisch": 16732694052,
     "Multicrew tank combat": 95721658376580,
     "Murder mystery 2": 142823291,
-    "Anime warriors iii": 18923620224
+    "Anime warriors iii": 18923620224,
+    "Football fusion 3": 82866880824588
   },
   "rscripts_uploaded_ids": [
     "69eda2f464a92b55be816967",
@@ -38,6 +39,7 @@
     "69fd77bccd95ac4f70a9da1c",
     "69fe7933a1f083fb46b08a08",
     "69fef6227fe6ad23f39dfad1",
-    "69ff1d35dc50fbe583f09fd9"
+    "69ff1d35dc50fbe583f09fd9",
+    "6a00097d17df3f2fdd622b94"
   ]
 }
