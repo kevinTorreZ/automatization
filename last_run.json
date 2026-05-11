@@ -1,5 +1,5 @@
 {
-  "last_successful_run": "2026-05-10",
+  "last_successful_run": "2026-05-11",
   "known_categories": {
     "Blox fruits": 2753915549,
     "Sailor piece": 77747658251236,
@@ -18,10 +18,15 @@
     "Multicrew tank combat": 95721658376580,
     "Murder mystery 2": 142823291,
     "Anime warriors iii": 18923620224,
-    "Football fusion 3": 82866880824588
+    "Football fusion 3": 82866880824588,
+    "Mm2 duels": 4577486879,
+    "Emergency hamburg": 7711635737,
+    "Exam week": 104006051149409,
+    "Monkey bomb tag": 108843562394237
   },
   "rscripts_uploaded_ids": [
     "69eda2f464a92b55be816967",
+    "69ee279017ed92700c0cbf8c",
     "69f416745010109d139e8c12",
     "69f4c169daed3fbbdbb581a3",
     "69f4c2b89f2fdea6a92e13cd",
@@ -40,6 +45,13 @@
     "69fe7933a1f083fb46b08a08",
     "69fef6227fe6ad23f39dfad1",
     "69ff1d35dc50fbe583f09fd9",
-    "6a00097d17df3f2fdd622b94"
+    "6a00097d17df3f2fdd622b94",
+    "6a011e71dc50fbe58344c847",
+    "6a01a49eaa4d1ea273b833cd",
+    "6a01a9b4dc50fbe583554038",
+    "6a01aa858a71b4ed51ffd547",
+    "6a01ba5617df3f2fdda36c0d",
+    "6a01c12fdc50fbe583583a5c",
+    "6a01c2422f73021758749600"
   ]
 }
