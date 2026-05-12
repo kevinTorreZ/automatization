@@ -1,5 +1,5 @@
 {
-  "last_successful_run": "2026-05-11",
+  "last_successful_run": "2026-05-12",
   "known_categories": {
     "Blox fruits": 2753915549,
     "Sailor piece": 77747658251236,
@@ -22,7 +22,8 @@
     "Mm2 duels": 4577486879,
     "Emergency hamburg": 7711635737,
     "Exam week": 104006051149409,
-    "Monkey bomb tag": 108843562394237
+    "Monkey bomb tag": 108843562394237,
+    "Catch and cook!": 90316083466771
   },
   "rscripts_uploaded_ids": [
     "69eda2f464a92b55be816967",
@@ -52,6 +53,7 @@
     "6a01aa858a71b4ed51ffd547",
     "6a01ba5617df3f2fdda36c0d",
     "6a01c12fdc50fbe583583a5c",
-    "6a01c2422f73021758749600"
+    "6a01c2422f73021758749600",
+    "6a02d1d4aa4d1ea273df38fa"
   ]
 }
