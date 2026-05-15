@@ -1,5 +1,5 @@
 {
-  "last_successful_run": "2026-05-14",
+  "last_successful_run": "2026-05-15",
   "known_categories": {
     "Blox fruits": 2753915549,
     "Sailor piece": 77747658251236,
@@ -23,7 +23,12 @@
     "Emergency hamburg": 7711635737,
     "Exam week": 104006051149409,
     "Monkey bomb tag": 108843562394237,
-    "Catch and cook!": 90316083466771
+    "Catch and cook!": 90316083466771,
+    "Rivals": 17625359962,
+    "Survive zombie arena": 114204398207377,
+    "Build bridge to brainrots": 88207898227053,
+    "Dog pound": 128327213958173,
+    "Project delta": 7336302630
   },
   "rscripts_uploaded_ids": [
     "69eda2f464a92b55be816967",
@@ -55,6 +60,11 @@
     "6a01c12fdc50fbe583583a5c",
     "6a01c2422f73021758749600",
     "6a02d1d4aa4d1ea273df38fa",
-    "6a05adabf2e7e43cfb67bf53"
+    "6a05adabf2e7e43cfb67bf53",
+    "6a06750ff2e7e43cfb7d29c5",
+    "6a06c78ea699d9207d965a31",
+    "6a06c87671f40761abc8b4dd",
+    "6a06db5301ef905619bdcd4a",
+    "6a06ee7071f40761abcc3839"
   ]
 }
