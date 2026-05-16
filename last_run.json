@@ -1,5 +1,5 @@
 {
-  "last_successful_run": "2026-05-15",
+  "last_successful_run": "2026-05-16",
   "known_categories": {
     "Blox fruits": 2753915549,
     "Sailor piece": 77747658251236,
@@ -28,7 +28,8 @@
     "Survive zombie arena": 114204398207377,
     "Build bridge to brainrots": 88207898227053,
     "Dog pound": 128327213958173,
-    "Project delta": 7336302630
+    "Project delta": 7336302630,
+    "\ud83c\udf40basketball legends\ud83c\udf40": 14259168147
   },
   "rscripts_uploaded_ids": [
     "69eda2f464a92b55be816967",
@@ -65,6 +66,7 @@
     "6a06c78ea699d9207d965a31",
     "6a06c87671f40761abc8b4dd",
     "6a06db5301ef905619bdcd4a",
-    "6a06ee7071f40761abcc3839"
+    "6a06ee7071f40761abcc3839",
+    "6a077e8130971390c56ec027"
   ]
 }
