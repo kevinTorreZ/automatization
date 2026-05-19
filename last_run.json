@@ -1,5 +1,5 @@
 {
-  "last_successful_run": "2026-05-18",
+  "last_successful_run": "2026-05-19",
   "known_categories": {
     "Blox fruits": 2753915549,
     "Sailor piece": 77747658251236,
@@ -32,7 +32,10 @@
     "\ud83c\udf40basketball legends\ud83c\udf40": 14259168147,
     "Zoo or oof\ud83c\udfaf": 139233844569220,
     "Bee swarm simulator": 1537690962,
-    "\ud83c\udf84 forsaken": 18687417158
+    "\ud83c\udf84 forsaken": 18687417158,
+    "Anime apocalypse": 140409475718339,
+    "Tennis clash": 85056532479796,
+    "Build a beehive": 113604074601559
   },
   "rscripts_uploaded_ids": [
     "683f8a8e71a5678b4973b53c",
@@ -73,6 +76,9 @@
     "6a06ee7071f40761abcc3839",
     "6a077e8130971390c56ec027",
     "6a087e125a0b3909f89eeb25",
-    "6a097fd4bd0f206e5a9063d8"
+    "6a097fd4bd0f206e5a9063d8",
+    "6a0ac84a31391c6bfc4c5d3f",
+    "6a0c22990227c2085cf658f8",
+    "6a0c50c516a5d83d8f7317a5"
   ]
 }
