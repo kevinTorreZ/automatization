@@ -1,5 +1,5 @@
 {
-  "last_successful_run": "2026-05-23",
+  "last_successful_run": "2026-05-24",
   "known_categories": {
     "Blox fruits": 2753915549,
     "Sailor piece": 77747658251236,
@@ -35,7 +35,10 @@
     "\ud83c\udf84 forsaken": 18687417158,
     "Anime apocalypse": 140409475718339,
     "Tennis clash": 85056532479796,
-    "Build a beehive": 113604074601559
+    "Build a beehive": 113604074601559,
+    "\ud83c\udf53dandy's world": 16116270224,
+    "Mini empires": 11755449133,
+    "Unknown threat": 101055953340350
   },
   "rscripts_uploaded_ids": [
     "683f8a8e71a5678b4973b53c",
@@ -81,6 +84,11 @@
     "6a0c22990227c2085cf658f8",
     "6a0c50c516a5d83d8f7317a5",
     "6a0d73c9950d33163c1a477c",
-    "6a0e594e7919ff8518661315"
+    "6a0e594e7919ff8518661315",
+    "6a1253a2ff641ffbeb3c1653",
+    "6a12713ce1e00a17912000eb",
+    "6a127205ff641ffbeb3fe985",
+    "6a12727b28db73cdfe3a7e7e",
+    "6a127328ff641ffbeb40086f"
   ]
 }
