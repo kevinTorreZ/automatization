@@ -1,5 +1,5 @@
 {
-  "last_successful_run": "2026-05-24",
+  "last_successful_run": "2026-05-25",
   "known_categories": {
     "Blox fruits": 2753915549,
     "Sailor piece": 77747658251236,
@@ -38,7 +38,8 @@
     "Build a beehive": 113604074601559,
     "\ud83c\udf53dandy's world": 16116270224,
     "Mini empires": 11755449133,
-    "Unknown threat": 101055953340350
+    "Unknown threat": 101055953340350,
+    "Universal tower defense": 133410800847665
   },
   "rscripts_uploaded_ids": [
     "683f8a8e71a5678b4973b53c",
@@ -89,6 +90,9 @@
     "6a12713ce1e00a17912000eb",
     "6a127205ff641ffbeb3fe985",
     "6a12727b28db73cdfe3a7e7e",
-    "6a127328ff641ffbeb40086f"
+    "6a127328ff641ffbeb40086f",
+    "6a139aeee1e00a17914aa4ea",
+    "6a13c416d1d97b750abf9bce",
+    "6a13f8e428db73cdfe71d8b0"
   ]
 }
