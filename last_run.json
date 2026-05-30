@@ -1,5 +1,5 @@
 {
-  "last_successful_run": "2026-05-29",
+  "last_successful_run": "2026-05-30",
   "known_categories": {
     "Blox fruits": 2753915549,
     "Sailor piece": 77747658251236,
@@ -41,7 +41,10 @@
     "Unknown threat": 101055953340350,
     "Universal tower defense": 133410800847665,
     "99 nights in the forest \ud83d\udd26": 79546208627805,
-    "Concrete cleaning simulator \ud83d\udca6": 99397872893294
+    "Concrete cleaning simulator \ud83d\udca6": 99397872893294,
+    "Bike to the top \ud83d\udeb4": 104950608654741,
+    "Stop the timer": 139988436996662,
+    "Build a ring farm": 107646426076756
   },
   "rscripts_uploaded_ids": [
     "683f8a8e71a5678b4973b53c",
@@ -98,6 +101,11 @@
     "6a13f8e428db73cdfe71d8b0",
     "6a17c432c306590688b7bbbc",
     "6a181a4cd9e874a3ec633089",
-    "6a181b36d9e874a3ec6353c3"
+    "6a181b36d9e874a3ec6353c3",
+    "6a1a98fa9b99af957f733640",
+    "6a1aa5041e2e7dda94b6768e",
+    "6a1aa59e1d24edf235ed0925",
+    "6a1aa65c9b99af957f755ac9",
+    "6a1ace31723848e486716708"
   ]
 }
