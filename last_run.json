@@ -1,5 +1,5 @@
 {
-  "last_successful_run": "2026-06-01",
+  "last_successful_run": "2026-06-02",
   "known_categories": {
     "Blox fruits": 2753915549,
     "Sailor piece": 77747658251236,
@@ -49,7 +49,9 @@
     "\ud83c\udfe2 the company": 76842920359834,
     "Run a restaurant! \ud83d\udc68\ud83c\udffb\u200d\ud83c\udf73": 77843161404023,
     "Tha bronx 3\ud83d\udd2a": 16472538603,
-    "Anime astral simulator": 113236157544232
+    "Anime astral simulator": 113236157544232,
+    "Track & field: infinite": 16426795556,
+    "Westbound": 2474168535
   },
   "rscripts_uploaded_ids": [
     "683f8a8e71a5678b4973b53c",
@@ -116,6 +118,8 @@
     "6a1bda6179b556b96ea650ad",
     "6a1bf541773455f8edab5057",
     "6a1c0ac979b556b96eae6cee",
-    "6a1cf0eadb9ada5c2efcf944"
+    "6a1cf0eadb9ada5c2efcf944",
+    "6a1e1d39e5cf71df96807828",
+    "6a1e809fe5cf71df968b7dbe"
   ]
 }
