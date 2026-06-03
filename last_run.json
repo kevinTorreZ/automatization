@@ -1,5 +1,5 @@
 {
-  "last_successful_run": "2026-06-02",
+  "last_successful_run": "2026-06-03",
   "known_categories": {
     "Blox fruits": 2753915549,
     "Sailor piece": 77747658251236,
@@ -51,7 +51,8 @@
     "Tha bronx 3\ud83d\udd2a": 16472538603,
     "Anime astral simulator": 113236157544232,
     "Track & field: infinite": 16426795556,
-    "Westbound": 2474168535
+    "Westbound": 2474168535,
+    "Demonology\ud83d\udd6f\ufe0f": 18199615050
   },
   "rscripts_uploaded_ids": [
     "683f8a8e71a5678b4973b53c",
@@ -120,6 +121,9 @@
     "6a1c0ac979b556b96eae6cee",
     "6a1cf0eadb9ada5c2efcf944",
     "6a1e1d39e5cf71df96807828",
-    "6a1e809fe5cf71df968b7dbe"
+    "6a1e809fe5cf71df968b7dbe",
+    "6a1f97f7e84e938fbefead35",
+    "6a1fad00e84e938fbe019ed5",
+    "6a1fae0d7a186d8640450a18"
   ]
 }
