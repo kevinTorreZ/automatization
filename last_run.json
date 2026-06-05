@@ -1,5 +1,5 @@
 {
-  "last_successful_run": "2026-06-04",
+  "last_successful_run": "2026-06-05",
   "known_categories": {
     "Blox fruits": 2753915549,
     "Sailor piece": 77747658251236,
@@ -53,7 +53,8 @@
     "Track & field: infinite": 16426795556,
     "Westbound": 2474168535,
     "Demonology\ud83d\udd6f\ufe0f": 18199615050,
-    "Aimbot arena \ud83c\udfaf": 92205345102577
+    "Aimbot arena \ud83c\udfaf": 92205345102577,
+    "Emergency response: liberty county": 2534724415
   },
   "rscripts_uploaded_ids": [
     "683f8a8e71a5678b4973b53c",
@@ -127,6 +128,9 @@
     "6a1fad00e84e938fbe019ed5",
     "6a1fae0d7a186d8640450a18",
     "6a210793d94bf6fe5643f696",
-    "6a210d5149b18446aa757036"
+    "6a210d5149b18446aa757036",
+    "6a22163fb52c29f7ca258983",
+    "6a2240c4eb5e04e73b005b7f",
+    "6a22560b1060b1a21618195c"
   ]
 }
