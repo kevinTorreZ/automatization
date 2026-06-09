@@ -1,5 +1,5 @@
 {
-  "last_successful_run": "2026-06-08",
+  "last_successful_run": "2026-06-09",
   "known_categories": {
     "Blox fruits": 2753915549,
     "Sailor piece": 77747658251236,
@@ -58,7 +58,9 @@
     "Steal a brainrot": 109983668079237,
     "Centaura": 8735521924,
     "Sell lemons \ud83c\udf4b": 79268393072444,
-    "Speed hub": 3101667897
+    "Speed hub": 3101667897,
+    "Flee the facility": 893973440,
+    "Fish it": 121864768012064
   },
   "rscripts_uploaded_ids": [
     "683f8a8e71a5678b4973b53c",
@@ -131,6 +133,7 @@
     "6a1f97f7e84e938fbefead35",
     "6a1fad00e84e938fbe019ed5",
     "6a1fae0d7a186d8640450a18",
+    "6a2073ed6186d52958235349",
     "6a210793d94bf6fe5643f696",
     "6a210d5149b18446aa757036",
     "6a22163fb52c29f7ca258983",
@@ -141,6 +144,11 @@
     "6a24b8cc7e8ea05f299d60bf",
     "6a2513306bfa58e1e70dc286",
     "6a254390dd3f1d0cc6c82e6c",
-    "6a2557a755035f531c6e2c3f"
+    "6a2557a755035f531c6e2c3f",
+    "6a270f522e7cde236d61cb52",
+    "6a272e74e7651c33d4cfc3e8",
+    "6a278f9c2e7cde236d7423c0",
+    "6a279162378c3c84f7329e88",
+    "6a2798f070c99325b5ab76ab"
   ]
 }
