@@ -1,5 +1,5 @@
 {
-  "last_successful_run": "2026-06-10",
+  "last_successful_run": "2026-06-11",
   "known_categories": {
     "Blox fruits": 2753915549,
     "Sailor piece": 77747658251236,
@@ -61,7 +61,9 @@
     "Speed hub": 3101667897,
     "Flee the facility": 893973440,
     "Fish it": 121864768012064,
-    "\u26a1 marine academy: military roleplay": 136611085381274
+    "\u26a1 marine academy: military roleplay": 136611085381274,
+    "Ability arena \ud83d\udca5": 110175021189594,
+    "Evade": 9872472334
   },
   "rscripts_uploaded_ids": [
     "683f8a8e71a5678b4973b53c",
@@ -155,6 +157,8 @@
     "6a28b5138cabab296ba10702",
     "6a28b73a8cabab296ba14dc6",
     "6a28d02aa1956dd2d53099b1",
-    "6a293e629a7e0b21f55dfa17"
+    "6a293e629a7e0b21f55dfa17",
+    "6a2a168a2202cd47387e3ca0",
+    "6a2a321682bf7c4918819314"
   ]
 }
