@@ -1,5 +1,5 @@
 {
-  "last_successful_run": "2026-06-11",
+  "last_successful_run": "2026-06-12",
   "known_categories": {
     "Blox fruits": 2753915549,
     "Sailor piece": 77747658251236,
@@ -63,7 +63,9 @@
     "Fish it": 121864768012064,
     "\u26a1 marine academy: military roleplay": 136611085381274,
     "Ability arena \ud83d\udca5": 110175021189594,
-    "Evade": 9872472334
+    "Evade": 9872472334,
+    "Flick": 136801880565837,
+    "Bloxstrike": 114234929420007
   },
   "rscripts_uploaded_ids": [
     "683f8a8e71a5678b4973b53c",
@@ -159,6 +161,11 @@
     "6a28d02aa1956dd2d53099b1",
     "6a293e629a7e0b21f55dfa17",
     "6a2a168a2202cd47387e3ca0",
-    "6a2a321682bf7c4918819314"
+    "6a2a321682bf7c4918819314",
+    "6a2b4e56e7e5fb8b317087fa",
+    "6a2b5f663f8ce33cdba4387e",
+    "6a2ba2fb4248511e84ce7828",
+    "6a2bcb051239a9cf380d7eee",
+    "6a2be57e3f8ce33cdbbf40b8"
   ]
 }
