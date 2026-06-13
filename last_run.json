@@ -1,5 +1,5 @@
 {
-  "last_successful_run": "2026-06-12",
+  "last_successful_run": "2026-06-13",
   "known_categories": {
     "Blox fruits": 2753915549,
     "Sailor piece": 77747658251236,
@@ -65,7 +65,12 @@
     "Ability arena \ud83d\udca5": 110175021189594,
     "Evade": 9872472334,
     "Flick": 136801880565837,
-    "Bloxstrike": 114234929420007
+    "Bloxstrike": 114234929420007,
+    "Daycare \ud83d\udca5": 6066404016,
+    "\ud83c\udfd4\ufe0f k2 climbing simulation": 124853293317687,
+    "Dangerous truck driving": 116094657599018,
+    "Build a boat for treasure": 537413528,
+    "Arcade basketball": 134558434771720
   },
   "rscripts_uploaded_ids": [
     "683f8a8e71a5678b4973b53c",
@@ -166,6 +171,14 @@
     "6a2b5f663f8ce33cdba4387e",
     "6a2ba2fb4248511e84ce7828",
     "6a2bcb051239a9cf380d7eee",
-    "6a2be57e3f8ce33cdbbf40b8"
+    "6a2be57e3f8ce33cdbbf40b8",
+    "6a2ca8588ca144b5eb166124",
+    "6a2cd5252012b02edcdeb3d0",
+    "6a2d0dc32012b02edce9fc6e",
+    "6a2d0e018ca144b5eb28a67c",
+    "6a2d0ebb2012b02edcea3f6e",
+    "6a2d0eec8ca144b5eb28d45c",
+    "6a2d0f2b8ca144b5eb28dfa0",
+    "6a2d3d03b9e95260e71bc14c"
   ]
 }
