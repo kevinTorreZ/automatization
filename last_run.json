@@ -1,5 +1,5 @@
 {
-  "last_successful_run": "2026-06-13",
+  "last_successful_run": "2026-06-14",
   "known_categories": {
     "Blox fruits": 2753915549,
     "Sailor piece": 77747658251236,
@@ -70,7 +70,11 @@
     "\ud83c\udfd4\ufe0f k2 climbing simulation": 124853293317687,
     "Dangerous truck driving": 116094657599018,
     "Build a boat for treasure": 537413528,
-    "Arcade basketball": 134558434771720
+    "Arcade basketball": 134558434771720,
+    "Stand upright: rebooted": 8540168650,
+    "Drop balls for brainrots": 139992937215031,
+    "Finish the word!": 91704854174760,
+    "Grow a garden 2": 97598239454123
   },
   "rscripts_uploaded_ids": [
     "683f8a8e71a5678b4973b53c",
@@ -179,6 +183,10 @@
     "6a2d0ebb2012b02edcea3f6e",
     "6a2d0eec8ca144b5eb28d45c",
     "6a2d0f2b8ca144b5eb28dfa0",
-    "6a2d3d03b9e95260e71bc14c"
+    "6a2d3d03b9e95260e71bc14c",
+    "6a2df2f05a66ca4c78687755",
+    "6a2e11ed25e0b3f9466bdf84",
+    "6a2e4e847c457f41f0eb812e",
+    "6a2e90e15a66ca4c788a3eb1"
   ]
 }
