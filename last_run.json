@@ -1,5 +1,5 @@
 {
-  "last_successful_run": "2026-06-14",
+  "last_successful_run": "2026-06-15",
   "known_categories": {
     "Blox fruits": 2753915549,
     "Sailor piece": 77747658251236,
@@ -74,7 +74,10 @@
     "Stand upright: rebooted": 8540168650,
     "Drop balls for brainrots": 139992937215031,
     "Finish the word!": 91704854174760,
-    "Grow a garden 2": 97598239454123
+    "Grow a garden 2": 97598239454123,
+    "Flex your fps!": 18667984660,
+    "Flex ur playtime!": 88837165999293,
+    "Booga booga": 11729688377
   },
   "rscripts_uploaded_ids": [
     "683f8a8e71a5678b4973b53c",
@@ -150,6 +153,7 @@
     "6a2073ed6186d52958235349",
     "6a210793d94bf6fe5643f696",
     "6a210d5149b18446aa757036",
+    "6a21ee271060b1a216085d08",
     "6a22163fb52c29f7ca258983",
     "6a2240c4eb5e04e73b005b7f",
     "6a22560b1060b1a21618195c",
@@ -184,9 +188,13 @@
     "6a2d0eec8ca144b5eb28d45c",
     "6a2d0f2b8ca144b5eb28dfa0",
     "6a2d3d03b9e95260e71bc14c",
+    "6a2da07d77a0acd58ea45d18",
     "6a2df2f05a66ca4c78687755",
     "6a2e11ed25e0b3f9466bdf84",
     "6a2e4e847c457f41f0eb812e",
-    "6a2e90e15a66ca4c788a3eb1"
+    "6a2e90e15a66ca4c788a3eb1",
+    "6a2f7f063fbf94b6a4637f7c",
+    "6a2f9db8d29e1c12aa154507",
+    "6a2fa32b4b61cad1f8ca02c0"
   ]
 }
