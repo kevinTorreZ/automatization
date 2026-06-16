@@ -1,5 +1,5 @@
 {
-  "last_successful_run": "2026-06-15",
+  "last_successful_run": "2026-06-16",
   "known_categories": {
     "Blox fruits": 2753915549,
     "Sailor piece": 77747658251236,
@@ -77,7 +77,8 @@
     "Grow a garden 2": 97598239454123,
     "Flex your fps!": 18667984660,
     "Flex ur playtime!": 88837165999293,
-    "Booga booga": 11729688377
+    "Booga booga": 11729688377,
+    "Multiply a lucky block": 84903083331706
   },
   "rscripts_uploaded_ids": [
     "683f8a8e71a5678b4973b53c",
@@ -195,6 +196,8 @@
     "6a2e90e15a66ca4c788a3eb1",
     "6a2f7f063fbf94b6a4637f7c",
     "6a2f9db8d29e1c12aa154507",
-    "6a2fa32b4b61cad1f8ca02c0"
+    "6a2fa32b4b61cad1f8ca02c0",
+    "6a3098e72e5c6034f04c3372",
+    "6a30f56f026b0dd3016d77d8"
   ]
 }
