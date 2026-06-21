@@ -1,5 +1,5 @@
 {
-  "last_successful_run": "2026-06-20",
+  "last_successful_run": "2026-06-21",
   "known_categories": {
     "Blox fruits": 2753915549,
     "Sailor piece": 77747658251236,
@@ -80,7 +80,10 @@
     "Booga booga": 11729688377,
     "Multiply a lucky block": 84903083331706,
     "Adopt me!": 920587237,
-    "Des hood": 88096385026145
+    "Des hood": 88096385026145,
+    "Vampire hunters 2": 198817751,
+    "Asmr tower": 111363135577981,
+    "Chicken farm \ud83d\udc23": 137233438285284
   },
   "rscripts_uploaded_ids": [
     "683f8a8e71a5678b4973b53c",
@@ -162,6 +165,7 @@
     "6a22560b1060b1a21618195c",
     "6a24064d6bfa58e1e7dfc959",
     "6a240ad76bfa58e1e7e07199",
+    "6a2448723963346ba7ab26a3",
     "6a24b8cc7e8ea05f299d60bf",
     "6a2513306bfa58e1e70dc286",
     "6a254390dd3f1d0cc6c82e6c",
@@ -211,6 +215,11 @@
     "6a35ec2be14385ffc3f626f1",
     "6a360910e14385ffc3fc01ec",
     "6a361a0a80ce826cd1341c90",
-    "6a36587d80ce826cd14218a2"
+    "6a36587d80ce826cd14218a2",
+    "6a36f2fbe14385ffc331ed70",
+    "6a3742cad9def70d03cb8b14",
+    "6a375c3fd9def70d03d23a5e",
+    "6a3768275a5fac95ea0eed3a",
+    "6a37842ae56559264fa92ba8"
   ]
 }
