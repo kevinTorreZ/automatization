@@ -1,5 +1,5 @@
 {
-  "last_successful_run": "2026-06-22",
+  "last_successful_run": "2026-06-23",
   "known_categories": {
     "Blox fruits": 2753915549,
     "Sailor piece": 77747658251236,
@@ -85,7 +85,9 @@
     "Asmr tower": 111363135577981,
     "Chicken farm \ud83d\udc23": 137233438285284,
     "\ud83c\udfa8paint or oof!": 91177184562415,
-    "\u2708\ufe0f paper plane for brainrots": 110373292461174
+    "\u2708\ufe0f paper plane for brainrots": 110373292461174,
+    "Merge a nuke!": 128784467030899,
+    "\u0410\u0440\u043c\u0438\u044f \u0440\u043e\u0431\u043b\u043e\u043a\u0441\u0430 \u0440\u043f": 18537079992
   },
   "rscripts_uploaded_ids": [
     "683f8a8e71a5678b4973b53c",
@@ -226,6 +228,10 @@
     "6a3891613252fb7c7bfa3bce",
     "6a38e1395b1a20081c68172d",
     "6a38ef1447e8389709db82c1",
-    "6a390138ebf072e12e0ba7bb"
+    "6a390138ebf072e12e0ba7bb",
+    "6a3a25566969e5197fa093d9",
+    "6a3a26c276ce050ef81c87de",
+    "6a3a27eb76ce050ef81cdd8e",
+    "6a3a6c1c31a647aa00963eba"
   ]
 }
