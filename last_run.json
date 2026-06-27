@@ -1,5 +1,5 @@
 {
-  "last_successful_run": "2026-06-26",
+  "last_successful_run": "2026-06-27",
   "known_categories": {
     "Blox fruits": 2753915549,
     "Sailor piece": 77747658251236,
@@ -98,7 +98,12 @@
     "Neighbors \ud83d\udd0a \ud83c\udfd6\ufe0f": 12699642568,
     "+1 jump mace escape": 126418248369553,
     "Crab tycoon \ud83e\udd80": 92605157087535,
-    "Find the squishies": 128793328541327
+    "Find the squishies": 128793328541327,
+    "+1 squish a dumpling escape!": 135807790398223,
+    "Hangout follows": 101442859980439,
+    "Scream jam": 121848455085269,
+    "Duelist: pvp": 122310270867133,
+    "Answer or die": 11966456877
   },
   "rscripts_uploaded_ids": [
     "683f8a8e71a5678b4973b53c",
@@ -262,6 +267,12 @@
     "6a3e4ea5b8f65db4f2c883e1",
     "6a3e5df2ec4d784f820418d8",
     "6a3e6187ec4d784f8204bb2e",
-    "6a3e6653ec4d784f8205c009"
+    "6a3e6653ec4d784f8205c009",
+    "6a3f46e9b8f65db4f2ff1616",
+    "6a3f4ec9013b4de6586e8919",
+    "6a3f692cec4d784f823f1227",
+    "6a3f7a7d013b4de658775379",
+    "6a3f7e59013b4de658781dfb",
+    "6a3fa5edec4d784f824ce597"
   ]
 }
