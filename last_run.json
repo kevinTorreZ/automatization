@@ -1,5 +1,5 @@
 {
-  "last_successful_run": "2026-06-27",
+  "last_successful_run": "2026-06-28",
   "known_categories": {
     "Blox fruits": 2753915549,
     "Sailor piece": 77747658251236,
@@ -103,7 +103,11 @@
     "Hangout follows": 101442859980439,
     "Scream jam": 121848455085269,
     "Duelist: pvp": 122310270867133,
-    "Answer or die": 11966456877
+    "Answer or die": 11966456877,
+    "+1 speed keyboard escape | candy & chocolate": 95082159892680,
+    "Welcome to bloxburg": 185655149,
+    "Animal hospital \ud83e\uddea": 78515283254292,
+    "Prison life": 155615604
   },
   "rscripts_uploaded_ids": [
     "683f8a8e71a5678b4973b53c",
@@ -273,6 +277,12 @@
     "6a3f692cec4d784f823f1227",
     "6a3f7a7d013b4de658775379",
     "6a3f7e59013b4de658781dfb",
-    "6a3fa5edec4d784f824ce597"
+    "6a3fa5edec4d784f824ce597",
+    "6a4083446bb72e180c64be3b",
+    "6a40a76d1f68eb0f1bb8a893",
+    "6a40b89c6bb72e180c70fe4c",
+    "6a40b9936bb72e180c713bd6",
+    "6a40c9cd95f00dff5b806671",
+    "6a40ec817d7069f16bef3a6e"
   ]
 }
