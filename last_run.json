@@ -1,5 +1,5 @@
 {
-  "last_successful_run": "2026-06-28",
+  "last_successful_run": "2026-06-29",
   "known_categories": {
     "Blox fruits": 2753915549,
     "Sailor piece": 77747658251236,
@@ -107,7 +107,8 @@
     "+1 speed keyboard escape | candy & chocolate": 95082159892680,
     "Welcome to bloxburg": 185655149,
     "Animal hospital \ud83e\uddea": 78515283254292,
-    "Prison life": 155615604
+    "Prison life": 155615604,
+    "Storage hunters: open world": 98800969324557
   },
   "rscripts_uploaded_ids": [
     "683f8a8e71a5678b4973b53c",
@@ -283,6 +284,9 @@
     "6a40b89c6bb72e180c70fe4c",
     "6a40b9936bb72e180c713bd6",
     "6a40c9cd95f00dff5b806671",
-    "6a40ec817d7069f16bef3a6e"
+    "6a40ec817d7069f16bef3a6e",
+    "6a419f7b95f00dff5bb82400",
+    "6a4225fb45d9a01287970a37",
+    "6a4259f445d9a01287a3574e"
   ]
 }
