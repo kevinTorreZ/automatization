@@ -1,5 +1,5 @@
 {
-  "last_successful_run": "2026-07-01",
+  "last_successful_run": "2026-07-02",
   "known_categories": {
     "Blox fruits": 2753915549,
     "Sailor piece": 77747658251236,
@@ -109,7 +109,10 @@
     "Animal hospital \ud83e\uddea": 78515283254292,
     "Prison life": 155615604,
     "Storage hunters: open world": 98800969324557,
-    "+1 ammo per click": 139907538117897
+    "+1 ammo per click": 139907538117897,
+    "Broken bones iv - ragdoll sim": 2551991523,
+    "Scale slimy fish": 82208825713916,
+    "Animal hospital": 78515283254292
   },
   "rscripts_uploaded_ids": [
     "683f8a8e71a5678b4973b53c",
@@ -300,6 +303,14 @@
     "6a4495d0c634aaff42b831ca",
     "6a44ab09c634aaff42bbe543",
     "6a44f53054f5648df7ece06b",
-    "6a44f7e6298e4df18d4f0ae5"
+    "6a44f7e6298e4df18d4f0ae5",
+    "6a45c55c50439b38e2718f20",
+    "6a45d88071c006bb02fcbb2f",
+    "6a45def850439b38e276ed00",
+    "6a45ff5971c006bb0204e9a8",
+    "6a45ffe871c006bb02050c72",
+    "6a460e8371c006bb0207af23",
+    "6a4636438ada138e396d11d8",
+    "6a4649e871c006bb0214920b"
   ]
 }
