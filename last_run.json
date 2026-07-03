@@ -1,5 +1,5 @@
 {
-  "last_successful_run": "2026-07-02",
+  "last_successful_run": "2026-07-03",
   "known_categories": {
     "Blox fruits": 2753915549,
     "Sailor piece": 77747658251236,
@@ -112,7 +112,11 @@
     "+1 ammo per click": 139907538117897,
     "Broken bones iv - ragdoll sim": 2551991523,
     "Scale slimy fish": 82208825713916,
-    "Animal hospital": 78515283254292
+    "Animal hospital": 78515283254292,
+    "Overkill": 124842176624983,
+    "Strucid": 2377868063,
+    "Natural disaster survival": 189707,
+    "Fnaf: eternal nights \ud83c\udf55": 11392373641
   },
   "rscripts_uploaded_ids": [
     "683f8a8e71a5678b4973b53c",
@@ -311,6 +315,17 @@
     "6a45ffe871c006bb02050c72",
     "6a460e8371c006bb0207af23",
     "6a4636438ada138e396d11d8",
-    "6a4649e871c006bb0214920b"
+    "6a4649e871c006bb0214920b",
+    "6a4701bc3b9881de4a4280d5",
+    "6a470a0f3e697a0c52b049d7",
+    "6a47133624710ea0234bcd71",
+    "6a472f63c6c4208636e37334",
+    "6a4730703b9881de4a4d2cb8",
+    "6a4730eb3e697a0c52b8e63d",
+    "6a47448f3e697a0c52bcee1d",
+    "6a475a7c163a15954e211ce1",
+    "6a476468163a15954e235041",
+    "6a47660a24710ea0235dcaad",
+    "6a479800c6c4208636fbc7bd"
   ]
 }
