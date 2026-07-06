@@ -1,5 +1,5 @@
 {
-  "last_successful_run": "2026-07-05",
+  "last_successful_run": "2026-07-06",
   "known_categories": {
     "Blox fruits": 2753915549,
     "Sailor piece": 77747658251236,
@@ -121,7 +121,9 @@
     "Evomon": 134381727982611,
     "Bundes rp": 95976623177771,
     "South bronx: the trenches": 10179538382,
-    "Phantom forces pc": 292439477
+    "Phantom forces pc": 292439477,
+    "Fight on a baseplate": 130960021905304,
+    "It hears you": 81751796724173
   },
   "rscripts_uploaded_ids": [
     "683f8a8e71a5678b4973b53c",
@@ -346,6 +348,12 @@
     "6a49def73e697a0c526cc3ff",
     "6a4a3d1041e1e5d2742bad7f",
     "6a4a3e2bda5f3016ba66aad7",
-    "6a4a3ec87ca7c5592d2cd8cc"
+    "6a4a3ec87ca7c5592d2cd8cc",
+    "6a4af84c97b37f0c46e31909",
+    "6a4afadea86d4e30dc325446",
+    "6a4afd5bbf662ce7c58573dd",
+    "6a4b06e307c16d341784de15",
+    "6a4b22a8bf662ce7c58ce1d2",
+    "6a4b4bf3a86d4e30dc431de4"
   ]
 }
