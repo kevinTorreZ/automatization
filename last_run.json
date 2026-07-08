@@ -1,5 +1,5 @@
 {
-  "last_successful_run": "2026-07-07",
+  "last_successful_run": "2026-07-08",
   "known_categories": {
     "Blox fruits": 2753915549,
     "Sailor piece": 77747658251236,
@@ -124,7 +124,8 @@
     "Phantom forces pc": 292439477,
     "Fight on a baseplate": 130960021905304,
     "It hears you": 81751796724173,
-    "Midnight racing: tokyo": 3339374541
+    "Midnight racing: tokyo": 3339374541,
+    "Mini war": 131346454575416
   },
   "rscripts_uploaded_ids": [
     "683f8a8e71a5678b4973b53c",
@@ -362,6 +363,10 @@
     "6a4cc79675363272a8b041a9",
     "6a4cd486d4b1227ea93b7428",
     "6a4cd64404307b87ad12c847",
-    "6a4ce925a897f971f68c7b67"
+    "6a4ce925a897f971f68c7b67",
+    "6a4dc2eab08ed45a04df66ae",
+    "6a4df910b08ed45a04e6e43f",
+    "6a4e1f8016133f0631367750",
+    "6a4e26916991d0a682364e38"
   ]
 }
