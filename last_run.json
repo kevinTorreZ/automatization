@@ -1,5 +1,5 @@
 {
-  "last_successful_run": "2026-07-12",
+  "last_successful_run": "2026-07-13",
   "known_categories": {
     "Blox fruits": 2753915549,
     "Sailor piece": 77747658251236,
@@ -131,7 +131,11 @@
     "Fishing simulator": 2866967438,
     "\ud83e\udea3 drain the lake": 138381251771774,
     "Jailbreak \u2620\ufe0f": 606849621,
-    "Fut \u26bd \ud83d\udd13": 88033955914813
+    "Fut \u26bd \ud83d\udd13": 88033955914813,
+    "Zombie island": 80610578881227,
+    "Paint or seek": 85245205758607,
+    "Pet simulator 99!": 8737899170,
+    "8-ball x": 105423512432229
   },
   "rscripts_uploaded_ids": [
     "683f8a8e71a5678b4973b53c",
@@ -389,6 +393,11 @@
     "6a52fdaf21bf3453cf122d1e",
     "6a53166b26f0a619f6d6b688",
     "6a534e03b3a645d8bc97120d",
-    "6a53547d3966f227bf6b135e"
+    "6a53547d3966f227bf6b135e",
+    "6a541616ceb8de71fbaca6b2",
+    "6a5458fb7b788d6a9c6a2d51",
+    "6a547c1dea59df0af56af392",
+    "6a548ccc68e2ae3302e396e8",
+    "6a5494f268e2ae3302e4a56a"
   ]
 }
