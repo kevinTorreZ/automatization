@@ -1,5 +1,5 @@
 {
-  "last_successful_run": "2026-07-14",
+  "last_successful_run": "2026-07-15",
   "known_categories": {
     "Blox fruits": 2753915549,
     "Sailor piece": 77747658251236,
@@ -139,7 +139,8 @@
     "\ud83c\udf3dgrow it rng": 78292727217500,
     "Gakuran": 128736949265057,
     "Roll an anime": 93999763241813,
-    "Racket rivals": 90906407195271
+    "Racket rivals": 90906407195271,
+    "Driving empire \ud83c\udfce\ufe0f car racing": 3351674303
   },
   "rscripts_uploaded_ids": [
     "683f8a8e71a5678b4973b53c",
@@ -352,6 +353,7 @@
     "6a476468163a15954e235041",
     "6a47660a24710ea0235dcaad",
     "6a479800c6c4208636fbc7bd",
+    "6a47bbf224710ea023729f50",
     "6a484da63e697a0c5200d4b6",
     "6a489bf28473078d9789de61",
     "6a48b95a163a15954e7e8423",
@@ -410,6 +412,8 @@
     "6a55f857ceb8de71fbec2b36",
     "6a56053cea59df0af59f7481",
     "6a56087f7b788d6a9ca55944",
-    "6a5616bffc79fcd7f082c4e7"
+    "6a5616bffc79fcd7f082c4e7",
+    "6a57231caf4c58be15534c22",
+    "6a574a72af4c58be1557e727"
   ]
 }
