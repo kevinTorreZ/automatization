@@ -1,5 +1,5 @@
 {
-  "last_successful_run": "2026-07-18",
+  "last_successful_run": "2026-07-19",
   "known_categories": {
     "Blox fruits": 2753915549,
     "Sailor piece": 77747658251236,
@@ -143,7 +143,8 @@
     "Driving empire \ud83c\udfce\ufe0f car racing": 3351674303,
     "Roll anime to fight!": 107653945083776,
     "\ud83e\udd8e chameleon!": 74511210941284,
-    "Zombie turret farm": 70790155462881
+    "Zombie turret farm": 70790155462881,
+    "Skywars \u2728": 8542259458
   },
   "rscripts_uploaded_ids": [
     "683f8a8e71a5678b4973b53c",
@@ -425,6 +426,7 @@
     "6a5972652a896dd9e41be51a",
     "6a59d45748237ba9ebf3a14c",
     "6a5b5cce95b5454b31567a98",
-    "6a5b610f82b7376f61a9384a"
+    "6a5b610f82b7376f61a9384a",
+    "6a5c295364e4da47d41033ba"
   ]
 }
