@@ -1,5 +1,5 @@
 {
-  "last_successful_run": "2026-07-19",
+  "last_successful_run": "2026-07-20",
   "known_categories": {
     "Blox fruits": 2753915549,
     "Sailor piece": 77747658251236,
@@ -144,7 +144,10 @@
     "Roll anime to fight!": 107653945083776,
     "\ud83e\udd8e chameleon!": 74511210941284,
     "Zombie turret farm": 70790155462881,
-    "Skywars \u2728": 8542259458
+    "Skywars \u2728": 8542259458,
+    "Final swarm": 99521272836282,
+    "Sword fighting pit \u2694\ufe0f": 119265221596002,
+    "Guess the character color": 73621314943835
   },
   "rscripts_uploaded_ids": [
     "683f8a8e71a5678b4973b53c",
@@ -427,6 +430,10 @@
     "6a59d45748237ba9ebf3a14c",
     "6a5b5cce95b5454b31567a98",
     "6a5b610f82b7376f61a9384a",
-    "6a5c295364e4da47d41033ba"
+    "6a5c295364e4da47d41033ba",
+    "6a5d703d63d9fde26d8ee3d6",
+    "6a5d70c106f5e0f87afc4798",
+    "6a5d72e93787ad7c9ad0d59f",
+    "6a5da3b820e31bbd0e93d2f3"
   ]
 }
