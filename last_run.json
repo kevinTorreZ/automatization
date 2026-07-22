@@ -1,5 +1,5 @@
 {
-  "last_successful_run": "2026-07-21",
+  "last_successful_run": "2026-07-22",
   "known_categories": {
     "Blox fruits": 2753915549,
     "Sailor piece": 77747658251236,
@@ -149,7 +149,8 @@
     "Sword fighting pit \u2694\ufe0f": 119265221596002,
     "Guess the character color": 73621314943835,
     "Build a base rng \ud83c\udfb2": 99108783264633,
-    "Lake sipping\ud83e\udd64": 119715129239364
+    "Lake sipping\ud83e\udd64": 119715129239364,
+    "Dino hunters": 119031147890918
   },
   "rscripts_uploaded_ids": [
     "683f8a8e71a5678b4973b53c",
@@ -439,6 +440,7 @@
     "6a5da3b820e31bbd0e93d2f3",
     "6a5ec3b6bbd394544a7b1a2b",
     "6a5efc95bbd394544a7b3303",
-    "6a5f3448a2da7757d85f5dd4"
+    "6a5f3448a2da7757d85f5dd4",
+    "6a6026f05f13efb7cfedf969"
   ]
 }
