@@ -1,5 +1,5 @@
 {
-  "last_successful_run": "2026-07-23",
+  "last_successful_run": "2026-07-24",
   "known_categories": {
     "Blox fruits": 2753915549,
     "Sailor piece": 77747658251236,
@@ -153,9 +153,13 @@
     "Dino hunters": 119031147890918,
     "+1 speed keyboard escape | honey & chocolate": 118764733201390,
     "Loot up! \u2603\ufe0f": 83622406313819,
-    "Anime expeditions": 84515722934860
+    "Anime expeditions": 84515722934860,
+    "Restaurant tycoon 3": 119048529960596,
+    "Fias modded": 137879838992476,
+    "Bid for anime!": 87274635966213
   },
   "rscripts_uploaded_ids": [
+    "682e93850f1f243a3edbb447",
     "683f8a8e71a5678b4973b53c",
     "69eda2f464a92b55be816967",
     "69ee279017ed92700c0cbf8c",
@@ -448,6 +452,12 @@
     "6a618840a87d1253b8e42703",
     "6a619e8ec6ad17d3ae3412e2",
     "6a61a9e87086c49f5ba90421",
-    "6a61ea2aaebd3b2839fd4393"
+    "6a61ea2aaebd3b2839fd4393",
+    "6a62c0e216ba08beb5263e4f",
+    "6a62ee39f4d2b755dba97fd3",
+    "6a62eecbaaf2ec9c265012f3",
+    "6a62f96216ba08beb5265a2a",
+    "6a631c9aa362cfbf22b95b0a",
+    "6a6351e4aaf2ec9c26504834"
   ]
 }
