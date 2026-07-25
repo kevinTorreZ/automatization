@@ -1,5 +1,5 @@
 {
-  "last_successful_run": "2026-07-24",
+  "last_successful_run": "2026-07-25",
   "known_categories": {
     "Blox fruits": 2753915549,
     "Sailor piece": 77747658251236,
@@ -156,11 +156,17 @@
     "Anime expeditions": 84515722934860,
     "Restaurant tycoon 3": 119048529960596,
     "Fias modded": 137879838992476,
-    "Bid for anime!": 87274635966213
+    "Bid for anime!": 87274635966213,
+    "Survive and kill the killers in area 51 !!!": 155382109,
+    "Heavy rust": 74669489500088,
+    "Catch a monster": 98664161516921,
+    "Cut a gem": 111773649152177,
+    "Super league soccer": 12177325772
   },
   "rscripts_uploaded_ids": [
     "682e93850f1f243a3edbb447",
     "683f8a8e71a5678b4973b53c",
+    "699e170f49eb7d06b0ef00b9",
     "69eda2f464a92b55be816967",
     "69ee279017ed92700c0cbf8c",
     "69f416745010109d139e8c12",
@@ -371,6 +377,7 @@
     "6a47660a24710ea0235dcaad",
     "6a479800c6c4208636fbc7bd",
     "6a47bbf224710ea023729f50",
+    "6a4831c3c6c4208636256fa1",
     "6a484da63e697a0c5200d4b6",
     "6a489bf28473078d9789de61",
     "6a48b95a163a15954e7e8423",
@@ -458,6 +465,14 @@
     "6a62eecbaaf2ec9c265012f3",
     "6a62f96216ba08beb5265a2a",
     "6a631c9aa362cfbf22b95b0a",
-    "6a6351e4aaf2ec9c26504834"
+    "6a6351e4aaf2ec9c26504834",
+    "6a63fcf8f4d2b755dbaa2460",
+    "6a642f1f16ba08beb527173f",
+    "6a64327111eff1c686cc0b89",
+    "6a647d30f4d2b755dbaa6cf0",
+    "6a647d70aaf2ec9c2651007b",
+    "6a647eadaaf2ec9c2651011a",
+    "6a6484caaaf2ec9c26510483",
+    "6a648d38fe636cab43f89c1c"
   ]
 }
