@@ -1,5 +1,5 @@
 {
-  "last_successful_run": "2026-07-25",
+  "last_successful_run": "2026-07-26",
   "known_categories": {
     "Blox fruits": 2753915549,
     "Sailor piece": 77747658251236,
@@ -161,7 +161,11 @@
     "Heavy rust": 74669489500088,
     "Catch a monster": 98664161516921,
     "Cut a gem": 111773649152177,
-    "Super league soccer": 12177325772
+    "Super league soccer": 12177325772,
+    "Roll to survive": 132508978828159,
+    "Aircraft carrier": 5140123832,
+    "Killstreak": 104856666707760,
+    "Build a pet factory": 135729108619936
   },
   "rscripts_uploaded_ids": [
     "682e93850f1f243a3edbb447",
@@ -473,6 +477,11 @@
     "6a647d70aaf2ec9c2651007b",
     "6a647eadaaf2ec9c2651011a",
     "6a6484caaaf2ec9c26510483",
-    "6a648d38fe636cab43f89c1c"
+    "6a648d38fe636cab43f89c1c",
+    "6a65638cdb61c6bbf5a53f0b",
+    "6a657fa8c928cc96dee1fe05",
+    "6a65b2788a5e9bdbcc0ffade",
+    "6a65d5442762a01a95c02100",
+    "6a65e0241a150c9ea195ffdb"
   ]
 }
