@@ -1,5 +1,5 @@
 {
-  "last_successful_run": "2026-07-26",
+  "last_successful_run": "2026-07-27",
   "known_categories": {
     "Blox fruits": 2753915549,
     "Sailor piece": 77747658251236,
@@ -165,11 +165,17 @@
     "Roll to survive": 132508978828159,
     "Aircraft carrier": 5140123832,
     "Killstreak": 104856666707760,
-    "Build a pet factory": 135729108619936
+    "Build a pet factory": 135729108619936,
+    "San diego border roleplay": 136020512003847,
+    "Blood zone": 13955927965,
+    "Block wars": 132768098780837,
+    "Brookhaven \ud83c\udfe1rp": 4924922222,
+    "99 nights in the forest": 79546208627805
   },
   "rscripts_uploaded_ids": [
     "682e93850f1f243a3edbb447",
     "683f8a8e71a5678b4973b53c",
+    "68ff5ac7dc017bef0cb989d9",
     "699e170f49eb7d06b0ef00b9",
     "69eda2f464a92b55be816967",
     "69ee279017ed92700c0cbf8c",
@@ -470,6 +476,7 @@
     "6a62f96216ba08beb5265a2a",
     "6a631c9aa362cfbf22b95b0a",
     "6a6351e4aaf2ec9c26504834",
+    "6a636925fe636cab43f7e323",
     "6a63fcf8f4d2b755dbaa2460",
     "6a642f1f16ba08beb527173f",
     "6a64327111eff1c686cc0b89",
@@ -482,6 +489,10 @@
     "6a657fa8c928cc96dee1fe05",
     "6a65b2788a5e9bdbcc0ffade",
     "6a65d5442762a01a95c02100",
-    "6a65e0241a150c9ea195ffdb"
+    "6a65e0241a150c9ea195ffdb",
+    "6a669fb1fdc2b2244335ddda",
+    "6a66b53bd876badb12de9bd2",
+    "6a66c638acdaf3a6102456b6",
+    "6a670a4d12012322a367600e"
   ]
 }
