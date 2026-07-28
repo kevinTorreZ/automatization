@@ -1,5 +1,5 @@
 {
-  "last_successful_run": "2026-07-27",
+  "last_successful_run": "2026-07-28",
   "known_categories": {
     "Blox fruits": 2753915549,
     "Sailor piece": 77747658251236,
@@ -170,7 +170,10 @@
     "Blood zone": 13955927965,
     "Block wars": 132768098780837,
     "Brookhaven \ud83c\udfe1rp": 4924922222,
-    "99 nights in the forest": 79546208627805
+    "99 nights in the forest": 79546208627805,
+    "Throw a coin": 115681808123944,
+    "Claw fishing": 128931272139211,
+    "Knife duels": 112731528776884
   },
   "rscripts_uploaded_ids": [
     "682e93850f1f243a3edbb447",
@@ -449,6 +452,7 @@
     "6a5616bffc79fcd7f082c4e7",
     "6a57231caf4c58be15534c22",
     "6a574a72af4c58be1557e727",
+    "6a57e88daf4c58be157146d9",
     "6a585c39c9e4371bd2307173",
     "6a58696faf4c58be15826b1a",
     "6a58bff60e1e47dbd0c6e680",
@@ -493,6 +497,12 @@
     "6a669fb1fdc2b2244335ddda",
     "6a66b53bd876badb12de9bd2",
     "6a66c638acdaf3a6102456b6",
-    "6a670a4d12012322a367600e"
+    "6a670a4d12012322a367600e",
+    "6a6804d812012322a367c628",
+    "6a681ca7e71a2f0482626298",
+    "6a68264d1fed505939e05fa7",
+    "6a683944e0b318d14156dc5b",
+    "6a685f94e71a2f048262799d",
+    "6a6865aee71a2f0482627c53"
   ]
 }
