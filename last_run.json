@@ -1,5 +1,5 @@
 {
-  "last_successful_run": "2026-08-01",
+  "last_successful_run": "2026-08-02",
   "known_categories": {
     "Blox fruits": 2753915549,
     "Sailor piece": 77747658251236,
@@ -189,7 +189,11 @@
     "+1 banana monkey destruction": 83256791430098,
     "Save animals! \ud83d\udc3e": 123822115505881,
     "+1 pickaxe swing escape": 82554996468034,
-    "Merge a tank": 121582128546193
+    "Merge a tank": 121582128546193,
+    "+1 backflip keyboard escape": 102553576537621,
+    "Your lumber farm!": 84400387456675,
+    "\ud83d\udc2e my moo farm": 134807373415131,
+    "Heal your injuries": 125133462423048
   },
   "rscripts_uploaded_ids": [
     "682e93850f1f243a3edbb447",
