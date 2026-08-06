@@ -1,5 +1,5 @@
 {
-  "last_successful_run": "2026-08-05",
+  "last_successful_run": "2026-08-06",
   "known_categories": {
     "Blox fruits": 2753915549,
     "Sailor piece": 77747658251236,
@@ -193,7 +193,9 @@
     "+1 backflip keyboard escape": 102553576537621,
     "Your lumber farm!": 84400387456675,
     "\ud83d\udc2e my moo farm": 134807373415131,
-    "Heal your injuries": 125133462423048
+    "Heal your injuries": 125133462423048,
+    "Da hood": 2788229376,
+    "Sniper arena": 122446657157717
   },
   "rscripts_uploaded_ids": [
     "682e93850f1f243a3edbb447",
