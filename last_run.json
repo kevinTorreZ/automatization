@@ -1,5 +1,5 @@
 {
-  "last_successful_run": "2026-08-06",
+  "last_successful_run": "2026-08-07",
   "known_categories": {
     "Blox fruits": 2753915549,
     "Sailor piece": 77747658251236,
@@ -195,7 +195,12 @@
     "\ud83d\udc2e my moo farm": 134807373415131,
     "Heal your injuries": 125133462423048,
     "Da hood": 2788229376,
-    "Sniper arena": 122446657157717
+    "Sniper arena": 122446657157717,
+    "Dig & clean \ud83e\uddfc": 83038462357724,
+    "+1 heat per click": 95570822232841,
+    "+1 backflip obby escape": 86378115369061,
+    "Murderers vs sheriffs": 135856908115931,
+    "\ud83d\udc30 life sentence": 13083893317
   },
   "rscripts_uploaded_ids": [
     "682e93850f1f243a3edbb447",
