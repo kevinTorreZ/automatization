@@ -1,5 +1,5 @@
 {
-  "last_successful_run": "2026-08-09",
+  "last_successful_run": "2026-08-10",
   "known_categories": {
     "Blox fruits": 2753915549,
     "Sailor piece": 77747658251236,
@@ -207,7 +207,9 @@
     "Grow a chicken fighter": 94640181989498,
     "Build a garden tower": 115035699922620,
     "+1 speed evolve \ud83e\udd8a": 83569851223739,
-    "Universal": 73257221383441
+    "Universal": 73257221383441,
+    "Speed vs giant": 90803345996188,
+    "Cars vs bikes": 126537046146276
   },
   "rscripts_uploaded_ids": [
     "682e93850f1f243a3edbb447",
