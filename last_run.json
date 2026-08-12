@@ -1,5 +1,5 @@
 {
-  "last_successful_run": "2026-08-11",
+  "last_successful_run": "2026-08-12",
   "known_categories": {
     "Blox fruits": 2753915549,
     "Sailor piece": 77747658251236,
@@ -211,7 +211,9 @@
     "Speed vs giant": 90803345996188,
     "Cars vs bikes": 126537046146276,
     "Ttk testing": 120189115846709,
-    "Saber simulator \ud83d\udd25": 3823781113
+    "Saber simulator \ud83d\udd25": 3823781113,
+    "Capybaras vs plants": 104973076655377,
+    "Iron soul: dungeon": 117533937949084
   },
   "rscripts_uploaded_ids": [
     "682e93850f1f243a3edbb447",
