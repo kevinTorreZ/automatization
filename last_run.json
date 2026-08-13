@@ -1,5 +1,5 @@
 {
-  "last_successful_run": "2026-08-12",
+  "last_successful_run": "2026-08-13",
   "known_categories": {
     "Blox fruits": 2753915549,
     "Sailor piece": 77747658251236,
@@ -213,7 +213,11 @@
     "Ttk testing": 120189115846709,
     "Saber simulator \ud83d\udd25": 3823781113,
     "Capybaras vs plants": 104973076655377,
-    "Iron soul: dungeon": 117533937949084
+    "Iron soul: dungeon": 117533937949084,
+    "Jailbird": 14772802900,
+    "Monster runners": 70417016586227,
+    "Arsenal refreshed": 109164313998745,
+    "One shot": 111600158364583
   },
   "rscripts_uploaded_ids": [
     "682e93850f1f243a3edbb447",
