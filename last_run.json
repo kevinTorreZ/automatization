@@ -1,5 +1,5 @@
 {
-  "last_successful_run": "2026-08-20",
+  "last_successful_run": "2026-08-21",
   "known_categories": {
     "Blox fruits": 2753915549,
     "Sailor piece": 77747658251236,
@@ -241,7 +241,10 @@
     "Build an anime arcade! \ud83c\udfb2": 117616339044619,
     "Death in the box": 14564651437,
     "Snatch a seed": 121180020176396,
-    "Build a cart": 127590941940388
+    "Build a cart": 127590941940388,
+    "Dueling grounds": 94217045453265,
+    "Beatball": 105452889569708,
+    "I wanna test the game": 11684369582
   },
   "rscripts_uploaded_ids": [
     "682e93850f1f243a3edbb447",
