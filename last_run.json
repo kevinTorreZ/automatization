@@ -1,5 +1,5 @@
 {
-  "last_successful_run": "2026-09-12",
+  "last_successful_run": "2026-09-13",
   "known_categories": {
     "Blox fruits": 2753915549,
     "Sailor piece": 77747658251236,
@@ -308,7 +308,11 @@
     "Idle mafia game": 73897506680154,
     "Guess the slapper": 106683702021527,
     "Build golems and fight": 101145494627874,
-    "Ride a pet": 124216119978534
+    "Ride a pet": 124216119978534,
+    "Merge a dino": 84546345526935,
+    "Find or die! \ud83d\udd0e": 73760625480506,
+    "Swing for eggs": 109203247742910,
+    "Steal a giant egg": 136448020793455
   },
   "rscripts_uploaded_ids": [
     "682e93850f1f243a3edbb447",
@@ -655,6 +659,13 @@
     "6a6c1cef088a0e5a080f00fe",
     "6a6c2cc83fa4314ab7fc76ca",
     "6a6c538c088a0e5a080f1a7c",
-    "6a6c6973088a0e5a080f22f5"
+    "6a6c6973088a0e5a080f22f5",
+    "6a7db3c42de4eba46960c528",
+    "6aa02d6d94c566a26371a355",
+    "6aa64957419c27db4c3cc67f",
+    "6aa653a8d5f306f22b5ecc3d",
+    "6aa65c531f0af8a417d64463",
+    "6aa65c7a72e26874f5e55906",
+    "6aa65e9f5f20db91669ea4e0"
   ]
 }
