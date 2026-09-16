@@ -1,5 +1,5 @@
 {
-  "last_successful_run": "2026-09-15",
+  "last_successful_run": "2026-09-16",
   "known_categories": {
     "Blox fruits": 2753915549,
     "Sailor piece": 77747658251236,
@@ -319,7 +319,9 @@
     "\ud83d\udcaa +1 strength to grow your arm\uff01": 86259628805375,
     "+1 tnt mining": 101304595834078,
     "Survive the swarm": 100227226022278,
-    "Illegal soccer": 126987974021910
+    "Illegal soccer": 126987974021910,
+    "Hole fishing": 80158232099900,
+    "+1 dmg fps": 100753254401525
   },
   "rscripts_uploaded_ids": [
     "682e93850f1f243a3edbb447",
@@ -684,6 +686,8 @@
     "6aa8ee77793a988c2cd8baf9",
     "6aa8f272ea05b95ccd289ea2",
     "6aa920eca90b66097067ba8c",
-    "6aa9252292691cf92e7cfb6e"
+    "6aa9252292691cf92e7cfb6e",
+    "6aaa085a4e0196ca2c5ed920",
+    "6aaa6402ff15732caaa18376"
   ]
 }
