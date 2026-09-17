@@ -1,5 +1,5 @@
 {
-  "last_successful_run": "2026-09-16",
+  "last_successful_run": "2026-09-17",
   "known_categories": {
     "Blox fruits": 2753915549,
     "Sailor piece": 77747658251236,
@@ -321,7 +321,10 @@
     "Survive the swarm": 100227226022278,
     "Illegal soccer": 126987974021910,
     "Hole fishing": 80158232099900,
-    "+1 dmg fps": 100753254401525
+    "+1 dmg fps": 100753254401525,
+    "Steal a verity!": 107164765081465,
+    "\u26cf\ufe0f +1 drill block per click": 136327778829765,
+    "Duel stars": 82983707799188
   },
   "rscripts_uploaded_ids": [
     "682e93850f1f243a3edbb447",
@@ -688,6 +691,10 @@
     "6aa920eca90b66097067ba8c",
     "6aa9252292691cf92e7cfb6e",
     "6aaa085a4e0196ca2c5ed920",
-    "6aaa6402ff15732caaa18376"
+    "6aaa6402ff15732caaa18376",
+    "6aab2dc8c9ac0feb67328bd8",
+    "6aab8c5267057626de2c3cd3",
+    "6aab9d17ff89458451e3e61b",
+    "6aabb3c1c9ac0feb673304bb"
   ]
 }
