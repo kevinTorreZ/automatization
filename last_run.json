@@ -1,5 +1,5 @@
 {
-  "last_successful_run": "2026-09-17",
+  "last_successful_run": "2026-09-18",
   "known_categories": {
     "Blox fruits": 2753915549,
     "Sailor piece": 77747658251236,
@@ -324,7 +324,11 @@
     "+1 dmg fps": 100753254401525,
     "Steal a verity!": 107164765081465,
     "\u26cf\ufe0f +1 drill block per click": 136327778829765,
-    "Duel stars": 82983707799188
+    "Duel stars": 82983707799188,
+    "\ud83e\uddfc clean your keycaps": 82745432464897,
+    "Defeat anime rng": 92606991708989,
+    "Surf for animals!": 96612869170793,
+    "\ud83c\udfcf wacky bats \ud83d\udca5": 81643479144713
   },
   "rscripts_uploaded_ids": [
     "682e93850f1f243a3edbb447",
@@ -673,6 +677,7 @@
     "6a6c538c088a0e5a080f1a7c",
     "6a6c6973088a0e5a080f22f5",
     "6a7db3c42de4eba46960c528",
+    "6a914fe2a5b08596aeb277d0",
     "6aa02d6d94c566a26371a355",
     "6aa64957419c27db4c3cc67f",
     "6aa653a8d5f306f22b5ecc3d",
@@ -695,6 +700,12 @@
     "6aab2dc8c9ac0feb67328bd8",
     "6aab8c5267057626de2c3cd3",
     "6aab9d17ff89458451e3e61b",
-    "6aabb3c1c9ac0feb673304bb"
+    "6aabb3c1c9ac0feb673304bb",
+    "6aac874c4a55abbff7404b41",
+    "6aacba204a55abbff7407960",
+    "6aacc433474b3cc2325bf583",
+    "6aaccc737accb43eea215d2c",
+    "6aacd050819ebddb2a229167",
+    "6aacd97c474b3cc2325c0a4e"
   ]
 }
