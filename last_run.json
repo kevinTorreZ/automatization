@@ -1,5 +1,5 @@
 {
-  "last_successful_run": "2026-09-21",
+  "last_successful_run": "2026-09-22",
   "known_categories": {
     "Blox fruits": 2753915549,
     "Sailor piece": 77747658251236,
@@ -332,7 +332,10 @@
     "Slayers 2": 16205713724,
     "The wild west": 2317712696,
     "La peace obby": 127608230264974,
-    "Poop a big poop \ud83e\uddfb": 85050171250159
+    "Poop a big poop \ud83e\uddfb": 85050171250159,
+    "+1 jump higher asmr": 88173596726094,
+    "Sword rng x": 88723502997575,
+    "Hood rivals": 77463332823746
   },
   "rscripts_uploaded_ids": [
     "682e93850f1f243a3edbb447",
@@ -680,8 +683,10 @@
     "6a6c2cc83fa4314ab7fc76ca",
     "6a6c538c088a0e5a080f1a7c",
     "6a6c6973088a0e5a080f22f5",
+    "6a788d1102665394e7da29ef",
     "6a7db3c42de4eba46960c528",
     "6a914fe2a5b08596aeb277d0",
+    "6a93213eda931fc8a88c1853",
     "6aa02d6d94c566a26371a355",
     "6aa5282dd5f306f22b5d413c",
     "6aa64957419c27db4c3cc67f",
@@ -717,6 +722,9 @@
     "6aae0a9584be22e7d6f58b18",
     "6aae192e84be22e7d6f59cfb",
     "6aaf3b9365366dd38422433e",
-    "6aaf3c697159805873992bfc"
+    "6aaf3c697159805873992bfc",
+    "6ab1dd5f192e20ff060de1f6",
+    "6ab2514f3acd8c0b6c562389",
+    "6ab25c7ae32cf2f499592f1d"
   ]
 }
