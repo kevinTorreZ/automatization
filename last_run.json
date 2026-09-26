@@ -1,5 +1,5 @@
 {
-  "last_successful_run": "2026-09-25",
+  "last_successful_run": "2026-09-26",
   "known_categories": {
     "Blox fruits": 2753915549,
     "Sailor piece": 77747658251236,
@@ -339,7 +339,8 @@
     "Fluxo pvp": 99001115434148,
     "Kaiju alpha": 127403135954624,
     "Collect 1 million items": 133363783004873,
-    "+1 stone skipping": 111543903102439
+    "+1 stone skipping": 111543903102439,
+    "Axe rng": 121863161094252
   },
   "rscripts_uploaded_ids": [
     "682e93850f1f243a3edbb447",
@@ -735,6 +736,9 @@
     "6ab5c65b3bee98dc8c7f8bc8",
     "6ab5e66be5cabfb0f0ce1cbc",
     "6ab5fdc834a280dbb3b08ada",
-    "6ab61886bfa393e268a1fd26"
+    "6ab61886bfa393e268a1fd26",
+    "6ab70d62040c1e5cc65839f5",
+    "6ab70e0f31046413dc5512f0",
+    "6ab7166403d2a13506f29bb3"
   ]
 }
