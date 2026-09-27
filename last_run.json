@@ -1,5 +1,5 @@
 {
-  "last_successful_run": "2026-09-26",
+  "last_successful_run": "2026-09-27",
   "known_categories": {
     "Blox fruits": 2753915549,
     "Sailor piece": 77747658251236,
@@ -340,7 +340,10 @@
     "Kaiju alpha": 127403135954624,
     "Collect 1 million items": 133363783004873,
     "+1 stone skipping": 111543903102439,
-    "Axe rng": 121863161094252
+    "Axe rng": 121863161094252,
+    "+1 high jump power escape": 83388257263676,
+    "Blitz fps": 125686182205697,
+    "Shogun's reign": 106568491289620
   },
   "rscripts_uploaded_ids": [
     "682e93850f1f243a3edbb447",
@@ -739,6 +742,12 @@
     "6ab61886bfa393e268a1fd26",
     "6ab70d62040c1e5cc65839f5",
     "6ab70e0f31046413dc5512f0",
-    "6ab7166403d2a13506f29bb3"
+    "6ab7166403d2a13506f29bb3",
+    "6ab74e3b7be4f02b629b707a",
+    "6ab7d319601a00bd8d949509",
+    "6ab7e69b7be4f02b629c51ec",
+    "6ab7efbb65fb8f64065197ff",
+    "6ab87badef3126b5988ffc56",
+    "6ab8c729cd4faaa1372599f2"
   ]
 }
