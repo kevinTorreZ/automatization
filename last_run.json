@@ -1,5 +1,5 @@
 {
-  "last_successful_run": "2026-09-28",
+  "last_successful_run": "2026-09-29",
   "known_categories": {
     "Blox fruits": 2753915549,
     "Sailor piece": 77747658251236,
@@ -343,7 +343,10 @@
     "Axe rng": 121863161094252,
     "+1 high jump power escape": 83388257263676,
     "Blitz fps": 125686182205697,
-    "Shogun's reign": 106568491289620
+    "Shogun's reign": 106568491289620,
+    "\ud83d\udcaddream car collection": 76841016201110,
+    "Merge hackers": 135169917851408,
+    "Tap buttons!": 77404766588393
   },
   "rscripts_uploaded_ids": [
     "682e93850f1f243a3edbb447",
@@ -748,6 +751,10 @@
     "6ab7e69b7be4f02b629c51ec",
     "6ab7efbb65fb8f64065197ff",
     "6ab87badef3126b5988ffc56",
-    "6ab8c729cd4faaa1372599f2"
+    "6ab8c729cd4faaa1372599f2",
+    "6abb0caf5e4320df859448c8",
+    "6abb182560bac1e4fb4f2520",
+    "6abb293711e9b81624620938",
+    "6abb339160bac1e4fb4f383b"
   ]
 }
