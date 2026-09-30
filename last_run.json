@@ -1,5 +1,5 @@
 {
-  "last_successful_run": "2026-09-29",
+  "last_successful_run": "2026-09-30",
   "known_categories": {
     "Blox fruits": 2753915549,
     "Sailor piece": 77747658251236,
@@ -346,7 +346,13 @@
     "Shogun's reign": 106568491289620,
     "\ud83d\udcaddream car collection": 76841016201110,
     "Merge hackers": 135169917851408,
-    "Tap buttons!": 77404766588393
+    "Tap buttons!": 77404766588393,
+    "Fishing master": 99925503388128,
+    "Anime breaker": 109928390521457,
+    "Can you charge my phone?": 130305413978852,
+    "Destroy a vault \ud83d\udcb0": 91034536684382,
+    "Cook an animal": 86435894760071,
+    "+1 shield per click": 83283886932197
   },
   "rscripts_uploaded_ids": [
     "682e93850f1f243a3edbb447",
@@ -755,6 +761,12 @@
     "6abb0caf5e4320df859448c8",
     "6abb182560bac1e4fb4f2520",
     "6abb293711e9b81624620938",
-    "6abb339160bac1e4fb4f383b"
+    "6abb339160bac1e4fb4f383b",
+    "6abc87764d5a0436b35431c7",
+    "6abc8793732b9ad574a2848f",
+    "6abca3657136803086dfa6f1",
+    "6abca7f84d5a0436b35445e1",
+    "6abcb58add43782362175328",
+    "6abcb689bddbb2a9cebe2f9b"
   ]
 }
