@@ -1,5 +1,5 @@
 {
-  "last_successful_run": "2026-10-01",
+  "last_successful_run": "2026-10-02",
   "known_categories": {
     "Blox fruits": 2753915549,
     "Sailor piece": 77747658251236,
@@ -352,7 +352,14 @@
     "Can you charge my phone?": 130305413978852,
     "Destroy a vault \ud83d\udcb0": 91034536684382,
     "Cook an animal": 86435894760071,
-    "+1 shield per click": 83283886932197
+    "+1 shield per click": 83283886932197,
+    "Build an ant empire": 78490532994307,
+    "+1 anime fight evolution": 92932872325974,
+    "Clover time": 93934100402512,
+    "Shuffle an egg": 79226825467411,
+    "Asylum life \u2744\ufe0f\ud83d\udd0a": 132352755769957,
+    "Untitled boxing game \ud83e\udd4a": 13621938427,
+    "Zenith": 135526003033215
   },
   "rscripts_uploaded_ids": [
     "682e93850f1f243a3edbb447",
@@ -705,6 +712,7 @@
     "6a914fe2a5b08596aeb277d0",
     "6a93213eda931fc8a88c1853",
     "6aa02d6d94c566a26371a355",
+    "6aa12843115b852e379c9c9c",
     "6aa5282dd5f306f22b5d413c",
     "6aa64957419c27db4c3cc67f",
     "6aa653a8d5f306f22b5ecc3d",
@@ -767,6 +775,16 @@
     "6abca3657136803086dfa6f1",
     "6abca7f84d5a0436b35445e1",
     "6abcb58add43782362175328",
-    "6abcb689bddbb2a9cebe2f9b"
+    "6abcb689bddbb2a9cebe2f9b",
+    "6abf3973a49bd4a4c2ab5e0d",
+    "6abf53b7680d8986a81440a8",
+    "6abf54525c537c2a4f5c38a0",
+    "6abf54f01666a9c2a3cdabac",
+    "6abf55b15c537c2a4f5c3908",
+    "6abf567c680d8986a8144274",
+    "6abf5aee772967ceb5c0a02f",
+    "6abf5b106e2e250543b18ef8",
+    "6abf69f7680d8986a81451a7",
+    "6abf7ca86e2e250543b1aa73"
   ]
 }
