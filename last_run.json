@@ -1,5 +1,5 @@
 {
-  "last_successful_run": "2026-10-02",
+  "last_successful_run": "2026-10-03",
   "known_categories": {
     "Blox fruits": 2753915549,
     "Sailor piece": 77747658251236,
@@ -359,7 +359,12 @@
     "Shuffle an egg": 79226825467411,
     "Asylum life \u2744\ufe0f\ud83d\udd0a": 132352755769957,
     "Untitled boxing game \ud83e\udd4a": 13621938427,
-    "Zenith": 135526003033215
+    "Zenith": 135526003033215,
+    "Anime zero \ud83d\udd12": 114574503491412,
+    "Color my flag": 132173349090360,
+    "Bahay kubo garden \ud83c\udf31": 81403703556465,
+    "Hide in paintings": 71274660353135,
+    "Suki: pwede utang?": 109475655864288
   },
   "rscripts_uploaded_ids": [
     "682e93850f1f243a3edbb447",
@@ -776,6 +781,7 @@
     "6abca7f84d5a0436b35445e1",
     "6abcb58add43782362175328",
     "6abcb689bddbb2a9cebe2f9b",
+    "6abdf2057136803086e0d29d",
     "6abf3973a49bd4a4c2ab5e0d",
     "6abf53b7680d8986a81440a8",
     "6abf54525c537c2a4f5c38a0",
@@ -785,6 +791,14 @@
     "6abf5aee772967ceb5c0a02f",
     "6abf5b106e2e250543b18ef8",
     "6abf69f7680d8986a81451a7",
-    "6abf7ca86e2e250543b1aa73"
+    "6abf7ca86e2e250543b1aa73",
+    "6ac0597df1fe12720ffc0112",
+    "6ac0735bd2dd4538b85221a6",
+    "6ac077e8d2dd4538b8522603",
+    "6ac08878772967ceb5c1d0d0",
+    "6ac08e646e2e250543b2d4e4",
+    "6ac0b0f6680d8986a815a9fb",
+    "6ac0c00cf1fe12720ffc7137",
+    "6ac0c36a680d8986a815bea8"
   ]
 }
