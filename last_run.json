@@ -1,5 +1,5 @@
 {
-  "last_successful_run": "2026-10-03",
+  "last_successful_run": "2026-10-04",
   "known_categories": {
     "Blox fruits": 2753915549,
     "Sailor piece": 77747658251236,
@@ -364,7 +364,12 @@
     "Color my flag": 132173349090360,
     "Bahay kubo garden \ud83c\udf31": 81403703556465,
     "Hide in paintings": 71274660353135,
-    "Suki: pwede utang?": 109475655864288
+    "Suki: pwede utang?": 109475655864288,
+    "Blacksmith": 109834760917626,
+    "+1 soldier evolution": 96124247562170,
+    "Basketball: zero": 130739873848552,
+    "Drill for eggs": 120656419209274,
+    "Anime legacy simulator": 106198175232796
   },
   "rscripts_uploaded_ids": [
     "682e93850f1f243a3edbb447",
@@ -799,6 +804,13 @@
     "6ac08e646e2e250543b2d4e4",
     "6ac0b0f6680d8986a815a9fb",
     "6ac0c00cf1fe12720ffc7137",
-    "6ac0c36a680d8986a815bea8"
+    "6ac0c36a680d8986a815bea8",
+    "6ac1aaf0680d8986a816f8d0",
+    "6ac1b338755dbd8f9e27e04f",
+    "6ac1b616755dbd8f9e27e46b",
+    "6ac1d0849ba7b1ebe8aa61e9",
+    "6ac20a42a49bd4a4c2aea912",
+    "6ac216dda49bd4a4c2aebc18",
+    "6ac22a8d78ec344156008e3f"
   ]
 }
