@@ -1,5 +1,5 @@
 {
-  "last_successful_run": "2026-10-06",
+  "last_successful_run": "2026-10-07",
   "known_categories": {
     "Blox fruits": 2753915549,
     "Sailor piece": 77747658251236,
@@ -369,7 +369,13 @@
     "+1 soldier evolution": 96124247562170,
     "Basketball: zero": 130739873848552,
     "Drill for eggs": 120656419209274,
-    "Anime legacy simulator": 106198175232796
+    "Anime legacy simulator": 106198175232796,
+    "Prehistoric farm": 139780970631001,
+    "\ud83c\udf31 steal to grow plants": 119121637510344,
+    "Last contract: tower defense": 127750392812160,
+    "Peel the potato": 116701845804918,
+    "Call a pet": 94609885506003,
+    "Ghost catchers": 70577084454790
   },
   "rscripts_uploaded_ids": [
     "682e93850f1f243a3edbb447",
@@ -812,6 +818,14 @@
     "6ac20a42a49bd4a4c2aea912",
     "6ac216dda49bd4a4c2aebc18",
     "6ac22a8d78ec344156008e3f",
-    "6ac455e768c6374a9f1e259d"
+    "6ac455e768c6374a9f1e259d",
+    "6ac59d2e70b7a801a688046e",
+    "6ac5a5d470b7a801a6880a6f",
+    "6ac5bfd9513d60f4ed8456c0",
+    "6ac5dc4ec70f1263fe1d5925",
+    "6ac5e49cc70f1263fe1d5f6f",
+    "6ac5fbc2513d60f4ed848a5c",
+    "6ac6147996f877510eed96f6",
+    "6ac6257f96f877510eeda5ac"
   ]
 }
