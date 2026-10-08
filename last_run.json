@@ -1,5 +1,5 @@
 {
-  "last_successful_run": "2026-10-07",
+  "last_successful_run": "2026-10-08",
   "known_categories": {
     "Blox fruits": 2753915549,
     "Sailor piece": 77747658251236,
@@ -375,7 +375,15 @@
     "Last contract: tower defense": 127750392812160,
     "Peel the potato": 116701845804918,
     "Call a pet": 94609885506003,
-    "Ghost catchers": 70577084454790
+    "Ghost catchers": 70577084454790,
+    "\u2694\ufe0f1.8 pvp club": 102518817130593,
+    "+1 sword loot": 93239606899307,
+    "Entrenched ww1 \ud83e\udd40": 3678761576,
+    "Combat warriors": 4282985734,
+    "Steal an army !": 72550272776965,
+    "Don't steal my eggs!": 135675416428111,
+    "Create pottery!": 92796716336864,
+    "Shigaku": 109329896664198
   },
   "rscripts_uploaded_ids": [
     "682e93850f1f243a3edbb447",
@@ -811,6 +819,7 @@
     "6ac0b0f6680d8986a815a9fb",
     "6ac0c00cf1fe12720ffc7137",
     "6ac0c36a680d8986a815bea8",
+    "6ac13879772967ceb5c2bfb7",
     "6ac1aaf0680d8986a816f8d0",
     "6ac1b338755dbd8f9e27e04f",
     "6ac1b616755dbd8f9e27e46b",
@@ -826,6 +835,14 @@
     "6ac5e49cc70f1263fe1d5f6f",
     "6ac5fbc2513d60f4ed848a5c",
     "6ac6147996f877510eed96f6",
-    "6ac6257f96f877510eeda5ac"
+    "6ac6257f96f877510eeda5ac",
+    "6ac6eccd1e72e76877a547e9",
+    "6ac6f3d08fe5a7b664a4b838",
+    "6ac70175f4e275e16d43a499",
+    "6ac7131cacc1c85a1e709d07",
+    "6ac714f4493ffb40a786d671",
+    "6ac714fb6534097e4624b838",
+    "6ac740f78fe5a7b664a4ef7b",
+    "6ac741601e72e76877a587b4"
   ]
 }
