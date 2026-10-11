@@ -1,5 +1,5 @@
 {
-  "last_successful_run": "2026-10-10",
+  "last_successful_run": "2026-10-11",
   "known_categories": {
     "Blox fruits": 2753915549,
     "Sailor piece": 77747658251236,
@@ -395,7 +395,9 @@
     "Steal and ride": 126344057129519,
     "Pixel lineage": 126256942507957,
     "Tap simulator: reborn": 72858262610964,
-    "Zenith hub": 4924922222
+    "Zenith hub": 4924922222,
+    "Kat": 621129760,
+    "Guess the song! 0.5s": 131683977882464
   },
   "rscripts_uploaded_ids": [
     "682e93850f1f243a3edbb447",
@@ -404,6 +406,7 @@
     "699e170f49eb7d06b0ef00b9",
     "69eda2f464a92b55be816967",
     "69ee279017ed92700c0cbf8c",
+    "69f255c93b1fe4c0eda52ce8",
     "69f416745010109d139e8c12",
     "69f4c169daed3fbbdbb581a3",
     "69f4c2b89f2fdea6a92e13cd",
@@ -744,6 +747,7 @@
     "6a6c538c088a0e5a080f1a7c",
     "6a6c6973088a0e5a080f22f5",
     "6a788d1102665394e7da29ef",
+    "6a79b271151e59f635a1b4ea",
     "6a7db3c42de4eba46960c528",
     "6a914fe2a5b08596aeb277d0",
     "6a93213eda931fc8a88c1853",
@@ -877,6 +881,10 @@
     "6ac9fb6e211013b14e86cd46",
     "6ac9fc58ce7102208a063f13",
     "6ac9fc8092d24c962db2c2d9",
-    "6ac9fd1259629fe3e366e425"
+    "6ac9fd1259629fe3e366e425",
+    "6acae4d4d9c697393aac1f57",
+    "6acb29f451926494857626b1",
+    "6acb2bcbc19ff8720ec0dbb4",
+    "6acb47fab7afa82fb8591f80"
   ]
 }
