@@ -1,5 +1,5 @@
 {
-  "last_successful_run": "2026-10-11",
+  "last_successful_run": "2026-10-12",
   "known_categories": {
     "Blox fruits": 2753915549,
     "Sailor piece": 77747658251236,
@@ -397,7 +397,8 @@
     "Tap simulator: reborn": 72858262610964,
     "Zenith hub": 4924922222,
     "Kat": 621129760,
-    "Guess the song! 0.5s": 131683977882464
+    "Guess the song! 0.5s": 131683977882464,
+    "Kill a 67 \ud83d\udc80\ud83d\udd2a": 114389537202208
   },
   "rscripts_uploaded_ids": [
     "682e93850f1f243a3edbb447",
@@ -456,6 +457,7 @@
     "6a139aeee1e00a17914aa4ea",
     "6a13c416d1d97b750abf9bce",
     "6a13f8e428db73cdfe71d8b0",
+    "6a15d80e65da70ee73b736a8",
     "6a17c432c306590688b7bbbc",
     "6a181a4cd9e874a3ec633089",
     "6a181b36d9e874a3ec6353c3",
@@ -827,6 +829,7 @@
     "6abf5b106e2e250543b18ef8",
     "6abf69f7680d8986a81451a7",
     "6abf7ca86e2e250543b1aa73",
+    "6abfedcc680d8986a814e786",
     "6ac0597df1fe12720ffc0112",
     "6ac0735bd2dd4538b85221a6",
     "6ac077e8d2dd4538b8522603",
@@ -885,6 +888,7 @@
     "6acae4d4d9c697393aac1f57",
     "6acb29f451926494857626b1",
     "6acb2bcbc19ff8720ec0dbb4",
-    "6acb47fab7afa82fb8591f80"
+    "6acb47fab7afa82fb8591f80",
+    "6acc0d4773b1876cb5fbd870"
   ]
 }
