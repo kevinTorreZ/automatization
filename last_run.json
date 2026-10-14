@@ -1,5 +1,5 @@
 {
-  "last_successful_run": "2026-10-13",
+  "last_successful_run": "2026-10-14",
   "known_categories": {
     "Blox fruits": 2753915549,
     "Sailor piece": 77747658251236,
@@ -398,7 +398,8 @@
     "Zenith hub": 4924922222,
     "Kat": 621129760,
     "Guess the song! 0.5s": 131683977882464,
-    "Kill a 67 \ud83d\udc80\ud83d\udd2a": 114389537202208
+    "Kill a 67 \ud83d\udc80\ud83d\udd2a": 114389537202208,
+    "Egg hunt": 107778070777162
   },
   "rscripts_uploaded_ids": [
     "682e93850f1f243a3edbb447",
@@ -885,6 +886,7 @@
     "6ac9fc58ce7102208a063f13",
     "6ac9fc8092d24c962db2c2d9",
     "6ac9fd1259629fe3e366e425",
+    "6aca2f0e3fd7d42e68236f46",
     "6acae4d4d9c697393aac1f57",
     "6acb29f451926494857626b1",
     "6acb2bcbc19ff8720ec0dbb4",
