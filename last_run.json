@@ -1,5 +1,5 @@
 {
-  "last_successful_run": "2026-10-15",
+  "last_successful_run": "2026-10-16",
   "known_categories": {
     "Blox fruits": 2753915549,
     "Sailor piece": 77747658251236,
@@ -401,7 +401,9 @@
     "Kill a 67 \ud83d\udc80\ud83d\udd2a": 114389537202208,
     "Egg hunt": 107778070777162,
     "Pogo for animals": 124509922383490,
-    "Build a monkey defense \ud83d\udc12": 86735095568809
+    "Build a monkey defense \ud83d\udc12": 86735095568809,
+    "+1 swordwave legend": 113220849219354,
+    "Rescue a fish": 126826719421373
   },
   "rscripts_uploaded_ids": [
     "682e93850f1f243a3edbb447",
@@ -897,6 +899,10 @@
     "6ad01a4bea7508fe1628a372",
     "6ad028e13871f5ef57421259",
     "6ad08e4359b7f956fb24f3f2",
-    "6ad0a8f0ea7508fe16295dcd"
+    "6ad0a8f0ea7508fe16295dcd",
+    "6ad16a2ef668b8e8a823fb8b",
+    "6ad17ef79138d8aa97f240c0",
+    "6ad187b71468607942162e09",
+    "6ad1daf89138d8aa97f2b628"
   ]
 }
