@@ -1,5 +1,5 @@
 {
-  "last_successful_run": "2026-10-17",
+  "last_successful_run": "2026-10-18",
   "known_categories": {
     "Blox fruits": 2753915549,
     "Sailor piece": 77747658251236,
@@ -409,7 +409,8 @@
     "Piano tiles": 101999883467300,
     "Print mania!": 101779961024872,
     "Chop a forest": 103363457515322,
-    "Save squishy from sand!": 123719537456042
+    "Save squishy from sand!": 123719537456042,
+    "Cube race": 87995132678610
   },
   "rscripts_uploaded_ids": [
     "682e93850f1f243a3edbb447",
@@ -920,6 +921,10 @@
     "6ad2efffe272b4005dcf4d9e",
     "6ad33127283889418e22ac8f",
     "6ad348f606ac30ebd34aaf55",
-    "6ad34d4906ac30ebd34ab65a"
+    "6ad34d4906ac30ebd34ab65a",
+    "6ad46de708f6937e2a8713b1",
+    "6ad476389507034096010136",
+    "6ad480ec96bc5f772d786f6f",
+    "6ad488f13d81c9c297cc5f66"
   ]
 }
