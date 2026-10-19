@@ -1,5 +1,5 @@
 {
-  "last_successful_run": "2026-10-18",
+  "last_successful_run": "2026-10-19",
   "known_categories": {
     "Blox fruits": 2753915549,
     "Sailor piece": 77747658251236,
@@ -410,7 +410,8 @@
     "Print mania!": 101779961024872,
     "Chop a forest": 103363457515322,
     "Save squishy from sand!": 123719537456042,
-    "Cube race": 87995132678610
+    "Cube race": 87995132678610,
+    "Plinky plonky": 87503271985688
   },
   "rscripts_uploaded_ids": [
     "682e93850f1f243a3edbb447",
@@ -925,6 +926,8 @@
     "6ad46de708f6937e2a8713b1",
     "6ad476389507034096010136",
     "6ad480ec96bc5f772d786f6f",
-    "6ad488f13d81c9c297cc5f66"
+    "6ad488f13d81c9c297cc5f66",
+    "6ad505ad3d81c9c297cdb1d0",
+    "6ad5862f11dc7429540e41da"
   ]
 }
