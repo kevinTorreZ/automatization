@@ -1,5 +1,5 @@
 {
-  "last_successful_run": "2026-10-21",
+  "last_successful_run": "2026-10-22",
   "known_categories": {
     "Blox fruits": 2753915549,
     "Sailor piece": 77747658251236,
@@ -414,7 +414,9 @@
     "Plinky plonky": 87503271985688,
     "Build a keyboard!": 112398753926712,
     "Make rugs!": 123184865562509,
-    "Steal a dna": 137922625460109
+    "Steal a dna": 137922625460109,
+    "Drop balls for baddies": 135145602662204,
+    "Anime mysterious": 117949143041402
   },
   "rscripts_uploaded_ids": [
     "682e93850f1f243a3edbb447",
@@ -926,6 +928,7 @@
     "6ad33127283889418e22ac8f",
     "6ad348f606ac30ebd34aaf55",
     "6ad34d4906ac30ebd34ab65a",
+    "6ad3d2d771227174985cc9fd",
     "6ad46de708f6937e2a8713b1",
     "6ad476389507034096010136",
     "6ad480ec96bc5f772d786f6f",
@@ -935,6 +938,10 @@
     "6ad6c7b9cb87f564227d883c",
     "6ad6f17a162178f2d31ebdd9",
     "6ad703e9162178f2d31ecf77",
-    "6ad84bc4cb87f564227f8fcf"
+    "6ad84bc4cb87f564227f8fcf",
+    "6ad957d00c336e3f959d89b8",
+    "6ad9927c9f7399b1d88beb22",
+    "6ad9b20a9f7399b1d88c1598",
+    "6ad9bc031978a999d4f1ab52"
   ]
 }
