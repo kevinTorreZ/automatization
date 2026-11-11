@@ -2,7 +2,7 @@
 Source: rscripts.net public API.
 
 Filtra los scripts más recientes de usuarios verificados sin sistema de keys
-(orderBy=date, sort=desc, verifiedOnly=true, noKeySystem=true).
+(orderBy=lastUpdated, sort=desc, verifiedOnly=true, noKeySystem=true).
 
 La API trae directamente:
 - title, lastUpdated, _id, slug
@@ -36,7 +36,9 @@ def fetch_recent_verified(max_pages: int = 2, sleep_between: float = 1.0):
     for page in range(1, max_pages + 1):
         params = {
             "page": page,
-            "orderBy": "date",
+            # OJO: orderBy=date NO ordena realmente (mezcla fechas viejas).
+            # lastUpdated si devuelve orden estricto desc.
+            "orderBy": "lastUpdated",
             "sort": "desc",
             # La API espera 1/0, NO strings "true"/"false" (los strings se ignoran).
             "verifiedOnly": 1,

@@ -2,7 +2,7 @@ import json
 import os
 import re
 import time
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 
 import requests
 from bs4 import BeautifulSoup
@@ -25,6 +25,10 @@ if not os.path.exists(OUTPUT_DIR):
     os.makedirs(OUTPUT_DIR)
 
 STATE_FILE = "last_run.json"
+
+# Ventana de busqueda: desde el ultimo run exitoso, pero como maximo N dias atras.
+# El dedup por ID/link evita re-subir lo ya procesado.
+MAX_LOOKBACK_DAYS = 3
 
 # Categorias ya creadas en Bublox: {nombre_formateado -> placeid}
 # Se persiste en last_run.json para no re-crearlas en cada run
@@ -94,15 +98,15 @@ def save_script(title, code):
 
     if not game_name:
         print(f"      [SKIP]: No se reconocio ningun juego en '{title}'")
-        return
+        return False
 
     # Verificar/crear categoria antes de subir el script
     category = ensure_category_exists(game_name, placeid)
     if not category:
-        return
+        return False
 
     print(f"      [UPLOAD]: '{clean_title}' -> categoria '{category}'")
-    upload_script(title, [category], code)
+    return upload_script(title, [category], code)
 
 
 def scrape_tertiary(url, title):
@@ -110,10 +114,10 @@ def scrape_tertiary(url, title):
         url.startswith("https://scriptpastebin.com")
         and "scriptpastebins.com" not in url
     ):
-        return
+        return False
     soup = get_soup(url)
     if not soup:
-        return
+        return False
 
     code = None
     textareas = soup.find_all("textarea")
@@ -129,35 +133,16 @@ def scrape_tertiary(url, title):
             code = pres[0].get_text(strip=True)
 
     if code:
-        save_script(title, code)
-    else:
-        print("      No code found on tertiary page.")
+        return save_script(title, code)
+    print("      No code found on tertiary page.")
+    return False
 
 
 def scrape_detail(url):
+    """Procesa un post de scriptpastebin. La fecha ya se filtro via REST API."""
     soup = get_soup(url)
     if not soup:
-        return
-
-    today_str = datetime.now().strftime("%Y-%m-%d")
-    post_date = None
-    time_tag = soup.find("time", class_="entry-date") or soup.find(
-        "time", class_="published"
-    )
-
-    if time_tag and time_tag.has_attr("datetime"):
-        post_date = time_tag["datetime"][:10]
-
-    if post_date:
-        if post_date != today_str:
-            print(
-                f"    [SKIP DATE]: Script date {post_date} is not today ({today_str})."
-            )
-            return
-        else:
-            print(f"    [DATE OK]: {post_date}")
-    else:
-        print("    [WARNING]: Could not extract date. Proceeding with caution...")
+        return False
 
     target_title = "Unknown Script"
 
@@ -208,15 +193,15 @@ def scrape_detail(url):
                 print(f"    [FALLBACK H1]: {target_title}")
 
         target_link = button.get("href")
-        scrape_tertiary(target_link, target_title)
-    else:
-        h1 = soup.find("h1")
-        if h1:
-            target_title = h1.get_text(strip=True)
-        scrape_tertiary(url, target_title)
+        return scrape_tertiary(target_link, target_title)
+
+    h1 = soup.find("h1")
+    if h1:
+        target_title = h1.get_text(strip=True)
+    return scrape_tertiary(url, target_title)
 
 
-def run_rscripts(state, max_pages=3):
+def run_rscripts(state, cutoff, max_pages=10):
     """
     Sube los scripts de rscripts.net publicados HOY cumpliendo:
     - verifiedOnly=1 (autores verificados)
@@ -226,7 +211,7 @@ def run_rscripts(state, max_pages=3):
     Como la API ordena desc, en cuanto encontramos uno anterior a hoy
     cortamos la paginación.
     """
-    today_str = datetime.now(timezone.utc).date().isoformat()
+    cutoff_iso = cutoff.strftime("%Y-%m-%dT%H:%M:%S")
     seen_ids = set(state.get("rscripts_uploaded_ids", []))
     new_uploaded = 0
     skipped_seen = 0
@@ -234,21 +219,26 @@ def run_rscripts(state, max_pages=3):
     skipped_norawcode = 0
     skipped_old = 0
 
-    print(f"[rscripts] filtrando solo lastUpdated == {today_str} (UTC)")
+    print(f"[rscripts] filtrando lastUpdated >= {cutoff_iso} (UTC)")
     print(f"[rscripts] {len(seen_ids)} IDs previamente subidos.")
 
-    # NO romper el loop al primer "no-hoy": la API mezcla scripts pinneados al
-    # principio, así que iteramos toda la paginación y skipeamos por fecha.
+    # Con orderBy=lastUpdated la API devuelve orden estricto desc, asi que
+    # tras varios scripts seguidos fuera de ventana cortamos la paginacion.
+    old_streak = 0
     for s in fetch_recent_verified(max_pages=max_pages):
-        last_updated = (s.get("lastUpdated") or "")[:10]
+        last_updated = (s.get("lastUpdated") or "")[:19]
         sid = s.get("_id")
         title = (s.get("title") or "").strip()
         if not sid or not title:
             continue
 
-        if last_updated != today_str:
+        if last_updated < cutoff_iso:
             skipped_old += 1
+            old_streak += 1
+            if old_streak >= 5:
+                break
             continue
+        old_streak = 0
 
         if sid in seen_ids:
             skipped_seen += 1
@@ -291,8 +281,61 @@ def run_rscripts(state, max_pages=3):
     print(
         f"[rscripts] subidos hoy: {new_uploaded} | ya vistos: {skipped_seen} | "
         f"sin juego: {skipped_nogame} | sin raw: {skipped_norawcode} | "
-        f"no-hoy descartados: {skipped_old}"
+        f"fuera de ventana: {skipped_old}"
     )
+
+
+SPB_API = "https://scriptpastebin.com/wp-json/wp/v2/posts"
+
+
+def run_scriptpastebin(state, cutoff):
+    """
+    La home de scriptpastebin ya no lista los ultimos posts (ahora es una
+    landing curada con <h2>), asi que usamos la REST API de WordPress.
+    Dedup por link en state['spb_seen_links'].
+    """
+    seen = set(state.get("spb_seen_links", []))
+    after = cutoff.strftime("%Y-%m-%dT%H:%M:%S")
+    print(f"[spb] posts con date_gmt >= {after} (UTC) | {len(seen)} links previos")
+    try:
+        resp = requests.get(
+            SPB_API,
+            params={
+                "per_page": 50,
+                "orderby": "date",
+                "order": "desc",
+                "_fields": "id,date_gmt,link,title",
+            },
+            headers=HEADERS,
+            timeout=30,
+        )
+        resp.raise_for_status()
+        posts = resp.json()
+    except Exception as e:
+        print(f"[spb] ERROR consultando REST API: {e}")
+        return
+
+    posts = [p for p in posts if (p.get("date_gmt") or "") >= after]
+    print(f"[spb] {len(posts)} posts en ventana.")
+
+    uploaded = skipped_seen = 0
+    for i, p in enumerate(posts):
+        link = p.get("link")
+        if not link:
+            continue
+        if link in seen:
+            skipped_seen += 1
+            continue
+        print(f"Processing {i + 1}/{len(posts)}: {link}")
+        # Solo se marca como visto si se subio; los fallos se reintentan
+        # mientras sigan dentro de la ventana.
+        if scrape_detail(link):
+            uploaded += 1
+            seen.add(link)
+        time.sleep(1)
+
+    state["spb_seen_links"] = sorted(seen)
+    print(f"[spb] subidos: {uploaded} | ya vistos: {skipped_seen}")
 
 
 def main():
@@ -302,7 +345,12 @@ def main():
     last_run_date = state.get("last_successful_run", "")
     today_str = datetime.now().strftime("%Y-%m-%d")
 
-    if last_run_date == today_str:
+    # Un trigger manual (workflow_dispatch) o FORCE_RUN ignora el guard diario;
+    # el dedup por ID/link evita duplicados.
+    manual = os.environ.get("GITHUB_EVENT_NAME") == "workflow_dispatch" or bool(
+        os.environ.get("FORCE_RUN")
+    )
+    if last_run_date == today_str and not manual:
         print(f"[INFO] Script already ran successfully today ({today_str}). Exiting.")
         return
 
@@ -310,38 +358,23 @@ def main():
     KNOWN_CATEGORIES = state.get("known_categories", {})
     print(f"[INFO] {len(KNOWN_CATEGORIES)} categorias conocidas cargadas desde estado.")
 
+    # Ventana: desde el dia anterior al ultimo run exitoso, con tope MAX_LOOKBACK_DAYS.
+    now_utc = datetime.now(timezone.utc).replace(tzinfo=None)
+    cutoff = now_utc - timedelta(days=MAX_LOOKBACK_DAYS)
+    try:
+        last_dt = datetime.strptime(last_run_date, "%Y-%m-%d") - timedelta(days=1)
+        cutoff = max(cutoff, last_dt)
+    except ValueError:
+        pass
+
     try:
         # ───── Fuente 1: rscripts.net API (verificados, sin keys, recientes) ─────
         print("\n=== rscripts.net ===")
-        run_rscripts(state)
+        run_rscripts(state, cutoff)
 
-        # ───── Fuente 2: scriptpastebin.com (HTML scrape, fallback) ─────
+        # ───── Fuente 2: scriptpastebin.com (WP REST API) ─────
         print("\n=== scriptpastebin.com ===")
-        base_url = "https://scriptpastebin.com/"
-        print(f"Fetching homepage: {base_url}")
-        soup = get_soup(base_url)
-        if soup:
-            article = soup.find("article")
-            items = []
-            if article:
-                headers = article.find_all("h3")
-                for h in headers:
-                    a = h.find("a")
-                    if a:
-                        items.append({"link": a.get("href")})
-            else:
-                headers = soup.find_all("h3")
-                for h in headers:
-                    a = h.find("a")
-                    if a:
-                        items.append({"link": a.get("href")})
-
-            print(f"Found {len(items)} items. Processing...")
-
-            for i, item in enumerate(items):
-                print(f"Processing Item {i + 1}...")
-                scrape_detail(item["link"])
-                time.sleep(1)
+        run_scriptpastebin(state, cutoff)
 
         state["last_successful_run"] = today_str
         state["known_categories"] = KNOWN_CATEGORIES
