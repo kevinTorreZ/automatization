@@ -180,7 +180,7 @@ def _ask_ai_game_name(title: str, openai_key: str) -> str | None:
                 "Content-Type": "application/json",
             },
             json={
-                "model": "gpt-4o-mini",
+                "model": "gpt-6-luna",
                 "messages": [
                     {
                         "role": "system",
