@@ -196,8 +196,9 @@ def _ask_ai_game_name(title: str, openai_key: str) -> str | None:
                         "content": f'What Roblox game is this script for? Title: "{title}"',
                     },
                 ],
-                "max_tokens": 20,
-                "temperature": 0,
+                # gpt-6-luna solo acepta temperature por defecto y usa
+                # max_completion_tokens (margen extra por si razona).
+                "max_completion_tokens": 300,
             },
             timeout=15,
         )
