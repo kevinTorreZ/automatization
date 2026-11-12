@@ -1,5 +1,5 @@
 {
-  "last_successful_run": "2026-11-11",
+  "last_successful_run": "2026-11-12",
   "known_categories": {
     "Blox fruits": 2753915549,
     "Sailor piece": 77747658251236,
@@ -444,7 +444,8 @@
     "Anime adventures": 8304191830,
     "Noob invasion": 124979753524404,
     "30 floors up": 124063493943486,
-    "+1 spear throwing": 120309659150421
+    "+1 spear throwing": 120309659150421,
+    "\u26bd be a soccer legend": 92316656787977
   },
   "rscripts_uploaded_ids": [
     "682e93850f1f243a3edbb447",
@@ -1006,7 +1007,12 @@
     "6af24fb3e77af1a4c8ff3a42",
     "6af2504baeb273fbec882b13",
     "6af355fe6893f810f2680154",
-    "6af486b09c76512f25cde66d"
+    "6af486b09c76512f25cde66d",
+    "6af4a9216893f810f2696626",
+    "6af4ac39d5d6c65b03805eb1",
+    "6af4c200d5d6c65b03808191",
+    "6af4d4106893f810f26997cb",
+    "6af4f8ccd5d6c65b0380c5d0"
   ],
   "spb_seen_links": [
     "https://scriptpastebin.com/blox-fruits-script-amethyst-hub/",
@@ -1014,12 +1020,15 @@
     "https://scriptpastebin.com/blox-fruits-script-aurora-hub/",
     "https://scriptpastebin.com/blox-fruits-script-ez-hub/",
     "https://scriptpastebin.com/blox-fruits-script-lavz-hub/",
+    "https://scriptpastebin.com/blox-fruits-script-plasma-hub/",
     "https://scriptpastebin.com/blox-fruits-script-simple-hub/",
     "https://scriptpastebin.com/blox-fruits-script-solar-hub/",
     "https://scriptpastebin.com/steal-an-egg-script-chilli-hub/",
     "https://scriptpastebin.com/steal-an-egg-script-figgy-hub/",
     "https://scriptpastebin.com/steal-an-egg-script-venyx-hub/",
     "https://scriptpastebin.com/throw-food-for-animals-script-aqua-hub/",
+    "https://scriptpastebin.com/throw-food-for-animals-script-axon-hub/",
+    "https://scriptpastebin.com/throw-food-for-animals-script-bigfroot-hub/",
     "https://scriptpastebin.com/throw-food-for-animals-script-mystrix-hub/",
     "https://scriptpastebin.com/throw-food-for-animals-script-noctarion-hub/",
     "https://scriptpastebin.com/throw-food-for-animals-script-tfaa-hub/"
