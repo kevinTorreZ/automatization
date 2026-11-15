@@ -1,5 +1,5 @@
 {
-  "last_successful_run": "2026-11-14",
+  "last_successful_run": "2026-11-15",
   "known_categories": {
     "Blox fruits": 2753915549,
     "Sailor piece": 77747658251236,
@@ -502,7 +502,14 @@
     "+1 dino evolution": 103138601755519,
     "Open sea for brainrots!": 114349086251135,
     "Kohls admin house nbc": 14747334292,
-    "King legacy": 3224257968
+    "King legacy": 3224257968,
+    "\u2744\ufe0f spray paint!": 5991163185,
+    "Rogue lineage": 3016661674,
+    "Ragdoll soccer": 106931373443671,
+    "Stand out": 128828638194450,
+    "3008": 2768379856,
+    "Just a baseplate.": 17574618959,
+    "Tribes 3v3": 72169370437173
   },
   "rscripts_uploaded_ids": [
     "682e93850f1f243a3edbb447",
@@ -1158,6 +1165,7 @@
     "6ae25b9859e2f59aac478c5b",
     "6ae5c2555ab5c54ea54e66dd",
     "6ae5fe5ae17a9f275d6da46c",
+    "6ae75bff7f71a3a8d1c745b2",
     "6ae83d67720c874931ab6aa7",
     "6ae8e9c6dcf09e8263a36e5d",
     "6aeed83838632aa61fa1d762",
@@ -1198,12 +1206,24 @@
     "6af7bd2c78d79159cc57b3fd",
     "6af7c69476b75d90f0d1d9ae",
     "6af7c85076b75d90f0d1dc2c",
-    "6af7cb3d76b75d90f0d1e1bb"
+    "6af7cb3d76b75d90f0d1e1bb",
+    "6af86e4441add791a770e844",
+    "6af86e815641be1ed02f16e2",
+    "6af8761e5641be1ed02f23b2",
+    "6af89c0605da90814a11d750",
+    "6af8ab3a666145d59281f866",
+    "6af8b48c666145d592820a13",
+    "6af8cf70666145d5928236a8",
+    "6af8df405641be1ed02fe5f8",
+    "6af8f60f41add791a771dec8",
+    "6af923f3a23b2b485524a3e9",
+    "6af9417ea23b2b485524d83f"
   ],
   "spb_seen_links": [
     "https://scriptpastebin.com/blox-fruits-script-amethyst-hub/",
     "https://scriptpastebin.com/blox-fruits-script-arvyn-hub/",
     "https://scriptpastebin.com/blox-fruits-script-aurora-hub/",
+    "https://scriptpastebin.com/blox-fruits-script-banana-hub-free/",
     "https://scriptpastebin.com/blox-fruits-script-ez-hub/",
     "https://scriptpastebin.com/blox-fruits-script-flen-hub/",
     "https://scriptpastebin.com/blox-fruits-script-lavz-hub/",
