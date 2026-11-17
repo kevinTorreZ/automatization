@@ -1,5 +1,5 @@
 {
-  "last_successful_run": "2026-11-16",
+  "last_successful_run": "2026-11-17",
   "known_categories": {
     "Blox fruits": 2753915549,
     "Sailor piece": 77747658251236,
@@ -543,7 +543,9 @@
     "\ud83c\udf55work at a pizza place": 192800,
     "Voxel wars": 78884249003161,
     "[title unavailable]": 6016716328,
-    "+1 power fruit evolution": 109238145423218
+    "+1 power fruit evolution": 109238145423218,
+    "Mobile sword fight classic": 9377953133,
+    "Rochess!": 130878180532794
   },
   "rscripts_uploaded_ids": [
     "682e93850f1f243a3edbb447",
@@ -554,6 +556,7 @@
     "699e170f49eb7d06b0ef00b9",
     "69a3ca10da3ea915ba98b186",
     "69a3caa9da3ea915ba98eb68",
+    "69ac879e1ddef031e9521191",
     "69e7ff82a7a8de09796ce01f",
     "69eda2f464a92b55be816967",
     "69ee279017ed92700c0cbf8c",
@@ -755,6 +758,7 @@
     "6a3891613252fb7c7bfa3bce",
     "6a38e1395b1a20081c68172d",
     "6a38ef1447e8389709db82c1",
+    "6a38fa5a02d7f5b1f299894a",
     "6a390138ebf072e12e0ba7bb",
     "6a39ea5081900757c9952423",
     "6a3a25566969e5197fa093d9",
@@ -1305,7 +1309,9 @@
     "6af9d5c1666145d59283e9a0",
     "6af9d8ca666145d59283ef9a",
     "6af9e995a23b2b4855260bbc",
-    "6af9eda9a23b2b4855261287"
+    "6af9eda9a23b2b4855261287",
+    "6afb2751666145d59285bcdf",
+    "6afbbbe76c003a7edc445582"
   ],
   "spb_seen_links": [
     "https://scriptpastebin.com/blox-fruits-script-amethyst-hub/",
@@ -1317,9 +1323,11 @@
     "https://scriptpastebin.com/blox-fruits-script-lavz-hub/",
     "https://scriptpastebin.com/blox-fruits-script-plasma-hub/",
     "https://scriptpastebin.com/blox-fruits-script-ravz-hub/",
+    "https://scriptpastebin.com/blox-fruits-script-scythe-hub/",
     "https://scriptpastebin.com/blox-fruits-script-simple-hub/",
     "https://scriptpastebin.com/blox-fruits-script-solar-hub/",
     "https://scriptpastebin.com/break-and-steal-an-egg-script-akkiwi-hub/",
+    "https://scriptpastebin.com/break-and-steal-an-egg-script-bigfroot-hub/",
     "https://scriptpastebin.com/break-and-steal-an-egg-script-liy-hub/",
     "https://scriptpastebin.com/break-and-steal-an-egg-script-lynx-hub/",
     "https://scriptpastebin.com/break-and-steal-an-egg-script-serenity-hub/",
