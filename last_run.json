@@ -1,5 +1,5 @@
 {
-  "last_successful_run": "2026-11-17",
+  "last_successful_run": "2026-11-18",
   "known_categories": {
     "Blox fruits": 2753915549,
     "Sailor piece": 77747658251236,
@@ -545,7 +545,11 @@
     "[title unavailable]": 6016716328,
     "+1 power fruit evolution": 109238145423218,
     "Mobile sword fight classic": 9377953133,
-    "Rochess!": 130878180532794
+    "Rochess!": 130878180532794,
+    "Peel a potato": 101303293597023,
+    "+1 scary evolution": 99932265350241,
+    "Throw a seed": 129081220403721,
+    "Ragdoll gladiator arena": 81921480725704
   },
   "rscripts_uploaded_ids": [
     "682e93850f1f243a3edbb447",
@@ -1252,6 +1256,7 @@
     "6ae8e9c6dcf09e8263a36e5d",
     "6aeed83838632aa61fa1d762",
     "6aef9ef20972b7d93cead2bd",
+    "6af081ec0972b7d93cec20cf",
     "6af0b6e34a98dcd17adf6e46",
     "6af0bb23aff62db247c7c982",
     "6af0bc1baff62db247c7cb0e",
@@ -1311,13 +1316,26 @@
     "6af9e995a23b2b4855260bbc",
     "6af9eda9a23b2b4855261287",
     "6afb2751666145d59285bcdf",
-    "6afbbbe76c003a7edc445582"
+    "6afbbbe76c003a7edc445582",
+    "6afc637cb837833bf7a2933f",
+    "6afc94248443821bc5813930",
+    "6afcb0a39b0b2c249599aace",
+    "6afcb13d5040276f505c4295",
+    "6afcb1549b0b2c249599ab83",
+    "6afcb5af6d7c6156308608a9",
+    "6afcbdba5040276f505c4e2b",
+    "6afcc5606d7c6156308614ce",
+    "6afcc9d7aba7423b5a241d6e",
+    "6afcdd5de6ec517877b0cc00",
+    "6afd61992341933ebc7b3248",
+    "6afd777ce6ec517877b15b01"
   ],
   "spb_seen_links": [
     "https://scriptpastebin.com/blox-fruits-script-amethyst-hub/",
     "https://scriptpastebin.com/blox-fruits-script-arvyn-hub/",
     "https://scriptpastebin.com/blox-fruits-script-aurora-hub/",
     "https://scriptpastebin.com/blox-fruits-script-banana-hub-free/",
+    "https://scriptpastebin.com/blox-fruits-script-comet-hub/",
     "https://scriptpastebin.com/blox-fruits-script-ez-hub/",
     "https://scriptpastebin.com/blox-fruits-script-flen-hub/",
     "https://scriptpastebin.com/blox-fruits-script-lavz-hub/",
@@ -1335,8 +1353,11 @@
     "https://scriptpastebin.com/king-legacy-script-ntt-hub/",
     "https://scriptpastebin.com/king-legacy-script-omg-hub/",
     "https://scriptpastebin.com/king-legacy-script-spectrum-hub/",
+    "https://scriptpastebin.com/steal-an-egg-script-axon-hub/",
     "https://scriptpastebin.com/steal-an-egg-script-chilli-hub/",
+    "https://scriptpastebin.com/steal-an-egg-script-clout-hub/",
     "https://scriptpastebin.com/steal-an-egg-script-figgy-hub/",
+    "https://scriptpastebin.com/steal-an-egg-script-lumin-hub/",
     "https://scriptpastebin.com/steal-an-egg-script-venyx-hub/",
     "https://scriptpastebin.com/throw-food-for-animals-script-aqua-hub/",
     "https://scriptpastebin.com/throw-food-for-animals-script-axon-hub/",
