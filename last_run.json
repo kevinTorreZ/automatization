@@ -1,5 +1,5 @@
 {
-  "last_successful_run": "2026-11-18",
+  "last_successful_run": "2026-11-19",
   "known_categories": {
     "Blox fruits": 2753915549,
     "Sailor piece": 77747658251236,
@@ -549,7 +549,8 @@
     "Peel a potato": 101303293597023,
     "+1 scary evolution": 99932265350241,
     "Throw a seed": 129081220403721,
-    "Ragdoll gladiator arena": 81921480725704
+    "Ragdoll gladiator arena": 81921480725704,
+    "Real futbol 24": 14004668761
   },
   "rscripts_uploaded_ids": [
     "682e93850f1f243a3edbb447",
@@ -640,6 +641,7 @@
     "6a1564c6d35b9cb68dbf034c",
     "6a15d80e65da70ee73b736a8",
     "6a163feed35b9cb68de0883a",
+    "6a170ddccb9a838ca0976655",
     "6a17c432c306590688b7bbbc",
     "6a17dc59bf79b2bfe07134b1",
     "6a181a4cd9e874a3ec633089",
@@ -1328,7 +1330,12 @@
     "6afcc9d7aba7423b5a241d6e",
     "6afcdd5de6ec517877b0cc00",
     "6afd61992341933ebc7b3248",
-    "6afd777ce6ec517877b15b01"
+    "6afd777ce6ec517877b15b01",
+    "6afde7ffaba7423b5a254088",
+    "6afe0647aba7423b5a2560b4",
+    "6afe49502341933ebc7c346e",
+    "6afe9269e25a522199d7fed2",
+    "6afe9a8806c1ba05b36cf7c6"
   ],
   "spb_seen_links": [
     "https://scriptpastebin.com/blox-fruits-script-amethyst-hub/",
@@ -1339,6 +1346,7 @@
     "https://scriptpastebin.com/blox-fruits-script-ez-hub/",
     "https://scriptpastebin.com/blox-fruits-script-flen-hub/",
     "https://scriptpastebin.com/blox-fruits-script-lavz-hub/",
+    "https://scriptpastebin.com/blox-fruits-script-plain-hub/",
     "https://scriptpastebin.com/blox-fruits-script-plasma-hub/",
     "https://scriptpastebin.com/blox-fruits-script-ravz-hub/",
     "https://scriptpastebin.com/blox-fruits-script-scythe-hub/",
@@ -1349,6 +1357,10 @@
     "https://scriptpastebin.com/break-and-steal-an-egg-script-liy-hub/",
     "https://scriptpastebin.com/break-and-steal-an-egg-script-lynx-hub/",
     "https://scriptpastebin.com/break-and-steal-an-egg-script-serenity-hub/",
+    "https://scriptpastebin.com/fisch-script-alchemy-hub/",
+    "https://scriptpastebin.com/fisch-script-lunor-hub/",
+    "https://scriptpastebin.com/fisch-script-meng-hub/",
+    "https://scriptpastebin.com/fisch-script-zenith-hub/",
     "https://scriptpastebin.com/king-legacy-script-axon-hub/",
     "https://scriptpastebin.com/king-legacy-script-ntt-hub/",
     "https://scriptpastebin.com/king-legacy-script-omg-hub/",
