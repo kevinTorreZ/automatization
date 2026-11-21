@@ -1,5 +1,5 @@
 {
-  "last_successful_run": "2026-11-20",
+  "last_successful_run": "2026-11-21",
   "known_categories": {
     "Blox fruits": 2753915549,
     "Sailor piece": 77747658251236,
@@ -564,7 +564,10 @@
     "8-bit tower defense": 110546355710189,
     "Sorcerer tower defense": 17720162456,
     "Dragon tower defense": 103076556916764,
-    "Toilet warfare defense": 79210218852760
+    "Toilet warfare defense": 79210218852760,
+    "Realistic street soccer": 14315258385,
+    "Nfl universe football": 2338325648,
+    "A bizarre run": 108055619068945
   },
   "rscripts_uploaded_ids": [
     "682e93850f1f243a3edbb447",
@@ -688,6 +691,7 @@
     "6a22163fb52c29f7ca258983",
     "6a2240c4eb5e04e73b005b7f",
     "6a22560b1060b1a21618195c",
+    "6a23e5887e8ea05f29777da8",
     "6a24064d6bfa58e1e7dfc959",
     "6a240ad76bfa58e1e7e07199",
     "6a2448723963346ba7ab26a3",
@@ -1272,6 +1276,7 @@
     "6ae25b9859e2f59aac478c5b",
     "6ae5c2555ab5c54ea54e66dd",
     "6ae5fe5ae17a9f275d6da46c",
+    "6ae634685ab5c54ea54f7553",
     "6ae75bff7f71a3a8d1c745b2",
     "6ae83d67720c874931ab6aa7",
     "6ae8e9c6dcf09e8263a36e5d",
@@ -1377,7 +1382,16 @@
     "6aff0cc0aba7423b5a266853",
     "6aff0cd5aba7423b5a266897",
     "6aff0ce9aba7423b5a2668c7",
-    "6affc9d506c1ba05b36e5119"
+    "6affc9d506c1ba05b36e5119",
+    "6b003a5606c1ba05b36ec794",
+    "6b00b9c9e6ec517877b4ff53",
+    "6b00ba172341933ebc7ee342",
+    "6b00d137e6ec517877b5195b",
+    "6b00df6e06c1ba05b36fa9ef",
+    "6b00dfc0aba7423b5a2872d8",
+    "6b00e010e6ec517877b52b1b",
+    "6b00f29ae6ec517877b54191",
+    "6b014355aa83ae6d0e05ffee"
   ],
   "spb_seen_links": [
     "https://scriptpastebin.com/blox-fruits-script-amethyst-hub/",
@@ -1414,6 +1428,7 @@
     "https://scriptpastebin.com/steal-an-egg-script-clout-hub/",
     "https://scriptpastebin.com/steal-an-egg-script-figgy-hub/",
     "https://scriptpastebin.com/steal-an-egg-script-lumin-hub/",
+    "https://scriptpastebin.com/steal-an-egg-script-nasi-rendang-hub/",
     "https://scriptpastebin.com/steal-an-egg-script-venyx-hub/",
     "https://scriptpastebin.com/throw-food-for-animals-script-aqua-hub/",
     "https://scriptpastebin.com/throw-food-for-animals-script-axon-hub/",
