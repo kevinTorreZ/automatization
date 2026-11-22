@@ -1,5 +1,5 @@
 {
-  "last_successful_run": "2026-11-21",
+  "last_successful_run": "2026-11-22",
   "known_categories": {
     "Blox fruits": 2753915549,
     "Sailor piece": 77747658251236,
@@ -567,7 +567,8 @@
     "Toilet warfare defense": 79210218852760,
     "Realistic street soccer": 14315258385,
     "Nfl universe football": 2338325648,
-    "A bizarre run": 108055619068945
+    "A bizarre run": 108055619068945,
+    "Legends of speed \u26a1": 3101667897
   },
   "rscripts_uploaded_ids": [
     "682e93850f1f243a3edbb447",
@@ -579,6 +580,8 @@
     "69a3ca10da3ea915ba98b186",
     "69a3caa9da3ea915ba98eb68",
     "69ac879e1ddef031e9521191",
+    "69dcf2d0f4706bb827408e3a",
+    "69e180b7c3822ebe4c91bc62",
     "69e7ff82a7a8de09796ce01f",
     "69eda2f464a92b55be816967",
     "69ee279017ed92700c0cbf8c",
@@ -1391,7 +1394,8 @@
     "6b00dfc0aba7423b5a2872d8",
     "6b00e010e6ec517877b52b1b",
     "6b00f29ae6ec517877b54191",
-    "6b014355aa83ae6d0e05ffee"
+    "6b014355aa83ae6d0e05ffee",
+    "6b0288afaa83ae6d0e07e6c0"
   ],
   "spb_seen_links": [
     "https://scriptpastebin.com/blox-fruits-script-amethyst-hub/",
@@ -1406,6 +1410,7 @@
     "https://scriptpastebin.com/blox-fruits-script-plain-hub/",
     "https://scriptpastebin.com/blox-fruits-script-plasma-hub/",
     "https://scriptpastebin.com/blox-fruits-script-ravz-hub/",
+    "https://scriptpastebin.com/blox-fruits-script-sa-hub/",
     "https://scriptpastebin.com/blox-fruits-script-scythe-hub/",
     "https://scriptpastebin.com/blox-fruits-script-simple-hub/",
     "https://scriptpastebin.com/blox-fruits-script-solar-hub/",
