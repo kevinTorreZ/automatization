@@ -1,5 +1,5 @@
 {
-  "last_successful_run": "2026-11-24",
+  "last_successful_run": "2026-11-25",
   "known_categories": {
     "Blox fruits": 2753915549,
     "Sailor piece": 77747658251236,
@@ -574,7 +574,10 @@
     "League football": 125331718634489,
     "Ant evolution": 123969755970816,
     "Anime crusaders": 107573139811370,
-    "Steal an exploit": 121035400884186
+    "Steal an exploit": 121035400884186,
+    "Krillion \ud83e\udd90": 115175190808402,
+    "Catch a pet and ride it!": 139317045424759,
+    "The strongest battlegrounds": 10449761463
   },
   "rscripts_uploaded_ids": [
     "682e93850f1f243a3edbb447",
@@ -1410,7 +1413,11 @@
     "6b03bd7b521530169b17ab7c",
     "6b044d491eec5642f33982cd",
     "6b04939c5f75b3423dc0d697",
-    "6b0563ee5f75b3423dc1aa97"
+    "6b0563ee5f75b3423dc1aa97",
+    "6b05821807e6106c3a39cbbc",
+    "6b05cdea0d7192532ad0e820",
+    "6b05ffe7aeb5c3fca3ac7eff",
+    "6b0667bf07e6106c3a3ad32c"
   ],
   "spb_seen_links": [
     "https://scriptpastebin.com/blox-fruits-script-amethyst-hub/",
@@ -1430,6 +1437,7 @@
     "https://scriptpastebin.com/blox-fruits-script-scythe-hub/",
     "https://scriptpastebin.com/blox-fruits-script-simple-hub/",
     "https://scriptpastebin.com/blox-fruits-script-solar-hub/",
+    "https://scriptpastebin.com/blox-fruits-script-sunz-hub/",
     "https://scriptpastebin.com/break-and-steal-an-egg-script-akkiwi-hub/",
     "https://scriptpastebin.com/break-and-steal-an-egg-script-bigfroot-hub/",
     "https://scriptpastebin.com/break-and-steal-an-egg-script-liy-hub/",
@@ -1437,6 +1445,7 @@
     "https://scriptpastebin.com/break-and-steal-an-egg-script-lynx-hub/",
     "https://scriptpastebin.com/break-and-steal-an-egg-script-serenity-hub/",
     "https://scriptpastebin.com/fisch-script-alchemy-hub/",
+    "https://scriptpastebin.com/fisch-script-iridium-hub/",
     "https://scriptpastebin.com/fisch-script-lunor-hub/",
     "https://scriptpastebin.com/fisch-script-meng-hub/",
     "https://scriptpastebin.com/fisch-script-zenith-hub/",
@@ -1444,6 +1453,7 @@
     "https://scriptpastebin.com/king-legacy-script-ntt-hub/",
     "https://scriptpastebin.com/king-legacy-script-omg-hub/",
     "https://scriptpastebin.com/king-legacy-script-spectrum-hub/",
+    "https://scriptpastebin.com/redz-hub-blox-fruits-script/",
     "https://scriptpastebin.com/steal-an-egg-script-axon-hub/",
     "https://scriptpastebin.com/steal-an-egg-script-chilli-hub/",
     "https://scriptpastebin.com/steal-an-egg-script-clout-hub/",
