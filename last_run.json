@@ -1,5 +1,5 @@
 {
-  "last_successful_run": "2026-11-26",
+  "last_successful_run": "2026-11-27",
   "known_categories": {
     "Blox fruits": 2753915549,
     "Sailor piece": 77747658251236,
@@ -582,7 +582,11 @@
     "Catalog avatar creator": 7041939546,
     "100 miles down the river": 95105291546154,
     "Fish for sea animals": 90296841634441,
-    "Throw a friend for monsters": 135753683017288
+    "Throw a friend for monsters": 135753683017288,
+    "Barber empire": 129516203408961,
+    "\ud83d\udd28plane crazy\ud83d\udd28": 166986752,
+    "Wings fight": 88661816960259,
+    "High school football \ud83c\udfc8": 91090484699204
   },
   "rscripts_uploaded_ids": [
     "682e93850f1f243a3edbb447",
@@ -595,6 +599,7 @@
     "69a3caa9da3ea915ba98eb68",
     "69ac879e1ddef031e9521191",
     "69bfe75739674ad1b05678e1",
+    "69c81278dfce20a4fe60108c",
     "69dcf2d0f4706bb827408e3a",
     "69e180b7c3822ebe4c91bc62",
     "69e7ff82a7a8de09796ce01f",
@@ -1441,7 +1446,13 @@
     "6b07c8c9494cef5d53dd1902",
     "6b07f8bbcd55f0a2abc40356",
     "6b0801dc376d69bd9d64978f",
-    "6b080236494cef5d53dd51dd"
+    "6b080236494cef5d53dd51dd",
+    "6b085897cd55f0a2abc47567",
+    "6b087a5e494cef5d53dde737",
+    "6b0883e7494cef5d53ddf36c",
+    "6b08b8f5cd55f0a2abc4ef96",
+    "6b08e3e9398b70850345cd6a",
+    "6b091355494cef5d53de946d"
   ],
   "spb_seen_links": [
     "https://scriptpastebin.com/blox-fruits-script-amethyst-hub/",
@@ -1451,6 +1462,7 @@
     "https://scriptpastebin.com/blox-fruits-script-banana-hub-free/",
     "https://scriptpastebin.com/blox-fruits-script-basic-hub/",
     "https://scriptpastebin.com/blox-fruits-script-comet-hub/",
+    "https://scriptpastebin.com/blox-fruits-script-dagger-hub/",
     "https://scriptpastebin.com/blox-fruits-script-ez-hub/",
     "https://scriptpastebin.com/blox-fruits-script-flen-hub/",
     "https://scriptpastebin.com/blox-fruits-script-garnet-hub/",
