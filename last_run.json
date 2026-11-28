@@ -1,5 +1,5 @@
 {
-  "last_successful_run": "2026-11-27",
+  "last_successful_run": "2026-11-28",
   "known_categories": {
     "Blox fruits": 2753915549,
     "Sailor piece": 77747658251236,
@@ -586,7 +586,11 @@
     "Barber empire": 129516203408961,
     "\ud83d\udd28plane crazy\ud83d\udd28": 166986752,
     "Wings fight": 88661816960259,
-    "High school football \ud83c\udfc8": 91090484699204
+    "High school football \ud83c\udfc8": 91090484699204,
+    "Fish for secret animals!": 107192230357786,
+    "Mashle academy": 13901460084,
+    "Aether tower defense": 77316609620504,
+    "Toilet masters tower defense": 78656041389908
   },
   "rscripts_uploaded_ids": [
     "682e93850f1f243a3edbb447",
@@ -1452,7 +1456,14 @@
     "6b0883e7494cef5d53ddf36c",
     "6b08b8f5cd55f0a2abc4ef96",
     "6b08e3e9398b70850345cd6a",
-    "6b091355494cef5d53de946d"
+    "6b091355494cef5d53de946d",
+    "6b09701ad8803ec6b39e97d0",
+    "6b097ca1398b708503466ce4",
+    "6b097cdf376d69bd9d664933",
+    "6b09f4ee1ec0ee3b29d54bbe",
+    "6b0a3db38190ba8e42cd99cf",
+    "6b0a5e348190ba8e42cdbeb2",
+    "6b0aa013dd25452025202551"
   ],
   "spb_seen_links": [
     "https://scriptpastebin.com/blox-fruits-script-amethyst-hub/",
@@ -1467,6 +1478,7 @@
     "https://scriptpastebin.com/blox-fruits-script-flen-hub/",
     "https://scriptpastebin.com/blox-fruits-script-garnet-hub/",
     "https://scriptpastebin.com/blox-fruits-script-lavz-hub/",
+    "https://scriptpastebin.com/blox-fruits-script-lunar-hub/",
     "https://scriptpastebin.com/blox-fruits-script-plain-hub/",
     "https://scriptpastebin.com/blox-fruits-script-plasma-hub/",
     "https://scriptpastebin.com/blox-fruits-script-ravz-hub/",
@@ -1491,7 +1503,9 @@
     "https://scriptpastebin.com/king-legacy-script-omg-hub/",
     "https://scriptpastebin.com/king-legacy-script-spectrum-hub/",
     "https://scriptpastebin.com/redz-hub-blox-fruits-script/",
+    "https://scriptpastebin.com/steal-an-egg-script-ajjans-hub/",
     "https://scriptpastebin.com/steal-an-egg-script-axon-hub/",
+    "https://scriptpastebin.com/steal-an-egg-script-bigfroot-hub/",
     "https://scriptpastebin.com/steal-an-egg-script-chilli-hub/",
     "https://scriptpastebin.com/steal-an-egg-script-clout-hub/",
     "https://scriptpastebin.com/steal-an-egg-script-figgy-hub/",
